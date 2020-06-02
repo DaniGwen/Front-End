@@ -1,0 +1,28 @@
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+.button-one {
+    display: block;
+    background: green;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 7px;
+}
+
+.fa-star {
+    color: white;
+}
+
+.fa-envelope{
+    color: white;
+}
+
+.button-two {
+    display: block;
+    background: orange;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 7px;
+}

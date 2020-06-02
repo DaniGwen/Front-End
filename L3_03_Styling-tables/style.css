@@ -1,0 +1,24 @@
+ table, th, td {
+     border-width: 1px;
+     border-color: rgb(221, 221, 221);
+     border-style: solid;
+     border-spacing: 0;
+     border-collapse: collapse;
+ }
+
+ tr:hover {
+     background-color: rgb(0, 0, 0);
+     color: rgb(255, 255, 255);
+ }
+
+ tr:nth-of-type(odd) {
+     background-color: rgb(241, 241, 241);
+ }
+
+ td:nth-of-type(odd){
+    background-color: rgb(241,241,241)
+}
+
+ th {
+     background-color: rgb(241, 241, 241);
+ }
