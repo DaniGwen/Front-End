@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: green;
+}
+
+nav {
+    display: inline-block;
+}
+
+ul {
+    padding: 0px;
+}
+
+header label {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 70px;
+}
+
+hr {
+    background-color: black;
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+}

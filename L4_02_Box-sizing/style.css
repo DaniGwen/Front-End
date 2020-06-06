@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body section {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 3px dotted green;
+    text-align: center;
+}
+
+section p {
+    width: 100%;
+    padding: 20px;
+    border: 5px solid blue;
+}
