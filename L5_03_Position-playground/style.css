@@ -1,0 +1,45 @@
+@import  'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+
+.viewport{
+    display: block;
+    position: relative;
+}
+
+.viewport.one{
+    height: 400px;
+    background-image: linear-gradient(to right, blue, red);
+}
+
+.viewport.two{
+    height: 550px;
+    background-image: linear-gradient(to right, purple, orange);
+}
+
+.one img{
+    position: absolute;
+    bottom: 90px;
+    right: 580px;
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.two img{
+    position: absolute;
+    bottom: 50px;
+    right: 580px;
+    max-width: 300px;
+}
+
+.fa-link{
+    position: absolute;
+    bottom: 100px;
+    left: 840px;
+    color: white;
+}
+
+.fa-star{
+    position: absolute;
+    bottom: 70px;
+    left: 840px;
+    color: white;
+}
