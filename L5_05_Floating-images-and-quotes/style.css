@@ -1,0 +1,80 @@
+ html {
+     box-sizing: border-box;
+     font-family: Helvetica, sans-serif;
+     font-size: 16px;
+     line-height: 1.5;
+     max-width: 1000px;
+     margin: 0 auto;
+ }
+
+ body {
+     background-color: rgb(238, 238, 238);
+ }
+
+ .site-title {
+     font-weight: bold;
+     font-size: 30px;
+     display: inline-block;
+     text-transform: uppercase;
+ }
+
+ .p-right {
+     float: right;
+     font-style: italic;
+     border-left: 2px solid gray;
+     padding-left: 20px;
+     max-width: 400px;
+ }
+
+ .p-right label {
+     font-style: italic;
+     float: right;
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+ .p-left {
+     float: left;
+     max-width: 400px;
+ }
+
+ label {
+     font-style: italic;
+ }
+
+ .p-after {
+     clear: both;
+ }
+
+ .image-one {
+     float: right;
+ }
+
+ .image-two {
+     float: left;
+     margin-right: 20px;
+ }
+
+ img {
+     background-color: rgb(255, 255, 255);
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+     border: 2px solid black;
+     padding: 5px;
+     margin: 5px;
+ }
+
+ hr {
+     border: 1px solid black;
+ }
+
+ h1, h2, h3, blockquote {
+     font-family: Georgia, serif;
+ }
+
+ ul li a {
+     color: green;
+ }
+
+ main {
+     float: left;
+ }
