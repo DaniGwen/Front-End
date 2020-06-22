@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+header {
+    display: flex;
+    height: 6em;
+    margin-top: 30px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 0;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    align-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
