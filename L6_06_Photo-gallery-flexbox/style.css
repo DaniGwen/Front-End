@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+body, ul, li {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gallery {
+    max-width: 800px;
+}
+
+.gallery ul {
+    justify-content: space-between;
+}
+
+body {
+    justify-content: center;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+li {
+    border: 7px solid black;
+    margin: 15px;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    padding: 30px 10px;
+}
