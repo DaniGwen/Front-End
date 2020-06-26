@@ -1,0 +1,32 @@
+.mq-width after {
+    display: none;
+}
+
+.mq-height after {
+    display: none;
+}
+
+.mq-ar after {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .mq-width after {
+        color: green;
+        display: inline;
+    }
+}
+
+@media screen and (min-height: 600px) {
+    .mq-height after {
+        display: inline;
+        color: green;
+    }
+}
+
+@media (min-aspect-ratio: 8/5) {
+    .mq-ar after {
+        display: inline;
+        color: green;
+    }
+}
