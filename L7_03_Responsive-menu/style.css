@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    width: 100%;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+nav {
+    display: flex;
+    align-content: space-between;
+}
+
+nav ul {
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    margin: 0;
+    padding: 2% 1% 2% 1%;
+    width: 500px;
+}
+
+li {
+    list-style: none;
+    margin-left: 3%;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    flex-flow: row wrap;
+}
+
+.container label {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+button {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+}
+
+@media (max-width: 599px) {
+    .container {
+        border-bottom: none;
+        justify-content: center;
+    }
+    nav {
+        background-color: white;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0% 3% 3% 0%;
+    }
+    li {
+        width: 100%;
+        margin-top: 3%;
+    }
+    button {
+        width: 100%;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 1199px) {
+    .container {
+        border-bottom: none;
+        justify-content: center;
+    }
+    .container label {
+        flex: 1 0 auto;
+        width: 100%;
+        max-width: 502px;
+    }
+    nav {
+        background-color: white;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul {
+        flex-wrap: wrap;
+        width: 500px;
+        padding: 0px 0px 10px 0px;
+        margin: 0px 12px 0px 0px;
+    }
+    li {
+        width: 100%;
+        margin-top: 3%;
+        justify-content: center;
+    }
+    button {
+        text-align: left;
+        width: 100%;
+    }
+}
+
+@media(min-width: 1800px) {
+    .container label {
+        font-size: 3em;
+    }
+    button {
+        font-size: 16px;
+        padding: 9px;
+    }
+}

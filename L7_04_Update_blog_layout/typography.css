@@ -1,0 +1,138 @@
+main {
+    justify-content: space-between;
+}
+
+header {
+    flex: 1 1 auto;
+}
+
+.page {
+    flex-wrap: wrap;
+}
+
+main h1 {
+    flex: 1 1 100%;
+}
+
+main h2 {
+    flex: 1 1 100%;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    padding: 5px;
+    max-height: 350px;
+    max-width: 320px;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+.page, main, aside {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+blockquote label {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+section nav, section ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/*TABLET*/
+
+@media (min-width: 600px) and (max-width: 1199px) {
+    header label {
+        font-size: 4rem;
+    }
+    h1, h2 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 20px;
+    }
+    blockquote {
+        font-size: 18px;
+    }
+    img {
+        max-height: 320px;
+        width: 280px;
+    }
+    .p-after-h2 {
+        flex: 1 1 auto;
+    }
+    aside {
+        margin-left: 50px;
+    }
+    .aside-nav {
+        background-color: lightgray;
+        border: none;
+    }
+    .image-one {
+        max-width: 40%;
+    }
+    .second-img {
+        max-width: 45%;
+        margin-right: 5px;
+    }
+}
+
+/*PHONE*/
+
+@media (max-width: 599px) {
+    body {
+        padding: 10%;
+    }
+    header label {
+        font-size: 4rem;
+    }
+    h1, h2 {
+        font-size: 2rem;
+    }
+   
+    main h1 {
+        order: -2;
+    }
+
+    blockquote {
+       
+        width: auto;
+    }
+
+    .second-img {
+        margin-bottom: 5%;
+    }
+ 
+    .aside-nav {
+        border: none;
+        background-color: lightgray;
+    }
+
+    .sixth-p{
+        flex: 1 1 auto;
+    }
+}
+
+@media(min-width: 1200px) {
+    html {
+        font-size: 16px;
+    }
+    blockquote {
+        font-size: 16px;
+    }
+    main {
+        width: 74%;
+    }
+}

@@ -1,0 +1,19 @@
+@import "layout.css";
+@import "reset.css";
+@import "typography.css";
+@import "navigation.css";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 17px;
+    width: 100%;
+}
+
+body {
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: lightgrey;
+}

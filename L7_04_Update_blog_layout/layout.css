@@ -1,0 +1,119 @@
+header p {
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
+header {
+    flex: 1 1 auto;
+}
+
+main h1 {
+    flex: 1 1 100%;
+}
+
+main h2 {
+    flex: 1 1 100%;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.image-one {
+    justify-content: right;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+.page {
+    flex-basis: 850px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+}
+
+h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: 2px solid gray;
+    padding-left: 4%;
+    max-width: 300px;
+}
+
+.p-after-h2 {
+    width: 82%;
+}
+
+.last-container p {
+    flex-basis: 75%;
+    padding-left: 20px;
+    margin: 0;
+    height: 120px;
+}
+
+.aside-container {
+    width: 200px;
+    height: 400px;
+    align-content: start;
+}
+
+aside section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+section h3 {
+    display: flex;
+    font-size: 17px;
+    height: 20px;
+}
+
+section nav ul {
+    background-color: lightgray;
+    margin-left: 20px;
+}
+
+section nav ul li {
+    font-size: 15px;
+    flex: 1 1 100%;
+    list-style: square;
+}
+
+section ul li {
+    font-size: 15px;
+    flex: 1 1 100%;
+    list-style: square;
+}
+
+.bottom-section ul {
+    padding: 0;
+    margin-left: 20px;
+}
+
+.first-p {
+    margin-top: 0px;
+    display: flex;
+    flex: 0 1 55%;
+}
+
+.sixth-p {
+    display: flex;
+    flex: 0 1 50%;
+    margin-top: 0;
+}
+
+.second-img {
+    border: 3px solid black;
+    max-width: 300px;
+    max-height: 200px;
+    padding: 5px;
+}
