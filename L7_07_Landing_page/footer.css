@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    margin: 0;
+    margin-top: 10%;
+    background-color: rgb(236, 234, 234);
+    padding: 20px 0;
+}
+
+.footer-section {
+    width: 20%;
+}
+
+.footer-section p {
+    margin: 0;
+    padding: 3px;
+}
+

@@ -1,0 +1,178 @@
+main {
+    margin: 0 auto;
+    margin-top: 7%;
+}
+
+.section-need-a-website {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.need-a-website-button {
+    cursor: pointer;
+    margin-top: 2%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 4px;
+    font-size: 10px;
+}
+
+.need-a-website-icon {
+    width: 300px;
+}
+
+.need-a-website-icon img {
+    width: 100%;
+}
+
+.need-a-website-description {
+    margin-right: 7%;
+}
+
+.need-a-website-description h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+/*-----------OUR TEAM SECTION------*/
+
+.section-our-team {
+    position: relative;
+    margin-top: 7%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.section-our-team h2 {
+    position: relative;
+    flex: 1 0 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.section-our-team h2::after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.our-team {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 8%;
+    margin-right: 6%;
+    margin-left: 6%;
+    max-width: 140px;
+}
+
+.our-team p {
+    text-align: center;
+}
+
+.img-wrapper {
+    width: 100px;
+    height: 100px;
+}
+
+.our-team img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 7px 7px 67px -6px rgba(0, 0, 0, 0.75);
+}
+
+.our-team-name {
+    margin-top: 20%;
+}
+
+.our-team-trait {
+    margin-top: 20%;
+    width: 140px;
+    padding: 0;
+}
+
+/*-------newsletter-section-------*/
+
+.section-newsletter {
+    background-color: #68347B;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    margin-top: 4%;
+    padding: 3%;
+    width: 100%;
+}
+
+.section-newsletter h3 {
+    position: relative;
+    color: white;
+    margin: 0;
+}
+
+.section-newsletter h3:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    bottom: -13px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.newsletter-input-section {
+    margin-top: 2%;
+}
+
+.newsletter-button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+/*---------testemonials-----------*/
+
+.section-testemonials {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 73%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.section-testemonials h2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+.section-testemonials h2:after {
+    position: absolute;
+    content: '';
+    width: 70px;
+    height: 2px;
+    background-color: black;
+    bottom: -13px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}

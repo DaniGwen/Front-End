@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.section-header-title {
+    width: 17%;
+}
+
+.logo-title {
+    font-weight: bold;
+    font-size: x-large;
+    color: #972E96;
+}
+
+.logo-description {
+    font-size: 7px;
+}
+
+.navigation-ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-li {
+    margin-left: 20px;
+    display: flex;
+    width: 60px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.navigation-icon{
+    display: none;
+}
+
