@@ -1,0 +1,62 @@
+header {
+    background-image: url("/images/map.jpg");
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-image-wrapper {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 50px;
+}
+
+.header-image-wrapper img {
+    width: 100%;
+}
+
+.header-title {
+    margin-top: 10%;
+    font-size: 5em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.header-title-and-button {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-self: center;
+}
+
+.header-login-and-search-wrapper {
+    display: flex;
+    margin-top: 2%;
+    margin-right: 5%;
+    align-items: flex-start;
+}
+
+.header-login-and-search-wrapper button {
+    margin-right: 20px;
+    height: 3%;
+    background-color: transparent;
+    color: #B2B3B3;
+    border: none;
+}
+
+.header-search-icon-wrapper i {
+    color: #B2B3B3;
+    margin-top: 2px;
+}
+
+.header-start-now-button{
+    background-color: #146594;
+    border: none;
+    border-radius: 5%;
+    color: white;
+    padding: 10px 12px;
+    font-size: 1.2em;
+}
+
