@@ -1,0 +1,227 @@
+main {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.main-article-one {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main-section.description {
+    margin-left: 5%;
+    width: 26%;
+}
+
+.main-section.description p {
+    margin-top: 5%;
+    line-height: 1.6;
+}
+
+.main-section.description h1 {
+    text-transform: uppercase;
+    font-size: 2.3em;
+    color: #000000;
+    font-weight: 200;
+}
+
+.img {
+    width: 600px;
+    height: 250px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.description>button {
+    margin-top: 8%;
+    padding: 3% 8%;
+    border: none;
+    background-color: #FF0000;
+    border-radius: 20px;
+    color: #FFFDFD;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/*ARTICLE TWO*/
+
+.main-article-two {
+    width: 100%;
+    height: 700px;
+    margin-top: 30%;
+    display: flex;
+    background-color: #FBFCFF;
+    justify-content: space-evenly;
+}
+
+.main-section-two-image {
+    width: 600px;
+    height: 300px;
+}
+
+.main-section-two-description {
+    width: 27%;
+}
+
+.main-section-two-image img {
+    width: 100%;
+}
+
+.main-section-two-description h1 {
+    text-transform: uppercase;
+    font-size: 4.6em;
+    color: #000000;
+    font-weight: 400;
+}
+
+.main-p-h1-addon {
+    width: 300px;
+    margin-top: 1%;
+    padding-left: 50%;
+    text-transform: uppercase;
+}
+
+.main-p-h1-addon span {
+    font-weight: bold;
+}
+
+.main-p-description {
+    width: 500px;
+    margin-top: 10%;
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+.main-div-price-and-buy {
+    display: flex;
+    margin-top: 12%;
+}
+
+.main-p-price {
+    font-size: 2.5em;
+    font-weight: 900;
+    margin-right: 6%;
+}
+
+.main-div-price-and-buy button {
+    width: 35%;
+    padding: 1% 5%;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #FF0000;
+    color: white;
+    cursor: pointer;
+}
+
+/*ARTICLE-THREE*/
+
+.main-article-three {
+    width: 100%;
+   
+    background-color: #575757;
+}
+
+.article-div-image-and-text {
+    display: flex;
+    width: 60%;
+    padding-top: 4%;
+    margin-left: 27%;
+    align-items: center;
+}
+
+.article-div-image-and-text img {
+    margin-right: 3%;
+}
+
+.article-div-image-and-text p {
+    text-transform: uppercase;
+    color: #E2E2E2;
+    font-size: 1.6em;
+}
+
+.article-div-image-and-text p>label {
+    color: white;
+}
+
+.read-more {
+    width: 170px;
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 3%;
+    margin-left: 43%;
+}
+
+.read-more p {
+    border-bottom: 1px solid white;
+    padding-bottom: 1%;
+}
+
+/*ARTICLE FOUR*/
+
+.main-article-four {
+    width: 100%;
+    display: flex;
+    background-color: #DADADA;
+}
+
+.main-section-four-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.main-div-four-text {
+    margin-left: 17%;
+}
+
+.main-div-four-text p {
+    font-size: 10em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.main-div-four-text p:last-child {
+    text-transform: lowercase;
+    font-size: 3em;
+    font-weight: 500;
+}
+
+.main-div-four-text p:last-child label {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 1em;
+    color: #FF0000;
+}
+
+.main-section-four-img-wrapper {
+    width: 90%;
+}
+
+.main-section-four-img-wrapper img {
+    width: 100%;
+}
+
+.main-div-four-img-two-wrapper {
+    width: 27%;
+}
+
+.main-div-four-img-two-wrapper img {
+    width: 100%;
+}
+
+/*ARTICLE FOUR*/
+
+footer p {
+    text-align: center;
+    margin: 4% 0;
+    font-size: 2em;
+}
