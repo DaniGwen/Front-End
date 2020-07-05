@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #306085;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.6em;
+}
+
+p {
+    color: white;
+}
+
+.main-section-text {
+    margin-right: 3%;
+    width: 40%;
+}
+
+.section-p {
+    padding-top: 2%;
+    font-size: 1.1em;
+}
+
+.section-p-small {
+    padding-top: 3%;
+    font-size: 0.9em;
+    color: #8CA7BB;
+}
+
+.main-section-images-one {
+    margin-right: 10px;
+}
+
+.main-div-dots-wrapper {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+
+.main-div-dots-wrapper-upper {
+    position: absolute;
+    top: 27%;
+    right: 30%;
+    z-index: -1;
+}
+
+.main-div-dots-wrapper-upper-two {
+    position: absolute;
+    top: 27%;
+    right: 27%;
+    z-index: -1;
+}
+
+.main-div-arrow-wrapper{
+    position: absolute;
+    top: 28%;
+    right: 13%;
+    z-index: -1;
+}

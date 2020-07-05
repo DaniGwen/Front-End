@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&display=swap');
+@import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css';
+@import "main.css";
+@import "header.css";
+@import "footer.css";
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Lato', sans-serif;
+    z-index: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    cursor: pointer;
+}

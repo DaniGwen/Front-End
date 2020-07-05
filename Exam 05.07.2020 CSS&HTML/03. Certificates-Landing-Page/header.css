@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    background-color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-section-logo-wrapper {
+    margin-left: 5%;
+}
+
+.header-section-menu-wrapper {
+    width: 80%;
+}
+
+.header-menu {
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu li {
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+    color: #54546F;
+    list-style: none;
+    cursor: pointer;
+}
+
+.header-menu-li-short {
+    width: 80px;
+}
+
+.header-section-login-wrapper {
+    position: relative;
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+.header-section-login-wrapper button {
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    background-color: #9B5DC6;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 20px;
+}

@@ -1,0 +1,17 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C2C3A;
+    color: white;
+    padding: 2% 4%;
+    align-items: flex-start;
+}
+
+.footer-section h1 {
+    color: #9B5DC6;
+}
+
+.footer-icons i {
+    font-size: 1.5em;
+    margin:13% 6% 10% 0;
+}
