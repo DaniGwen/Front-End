@@ -1,0 +1,19 @@
+.c-main-section-about-us-wrapper {
+    width: 78%;
+    margin: 40px auto;
+}
+
+.c-main-section-about-us-wrapper p, h1 {
+    color: white
+}
+
+.c-main-section-article-text {
+    width: 40%;
+}
+
+.c-main-section-article-images {
+    display: flex;
+    width: 60%;
+    align-content: center;
+    position: relative;
+}

@@ -1,0 +1,40 @@
+.c-header-login-btn {
+    background-color: #42ABF8;
+    padding: 10px 4px;
+    border: none;
+    border-radius: 5px;
+    color: #F5FBFF;
+}
+
+.c-main-div-about-us-buttons-wrapper {
+    position: relative;
+    width: 400px;
+}
+
+.c-main-div-about-us-buttons-wrapper::before {
+    position: absolute;
+    content: ' ';
+    top: 14%;
+    left: 26%;
+    width: 2px;
+    height: 70%;
+    background-color: white;
+}
+
+.c-main-section-about-us-apply-btn {
+    background-color: #fff;
+    color: #4DA5E6;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    position: relative;
+}
+
+.c-main-section-about-us-curriculum-btn {
+    background-color: rgba(255, 255, 255, 0);
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    margin-left: 12%;
+}

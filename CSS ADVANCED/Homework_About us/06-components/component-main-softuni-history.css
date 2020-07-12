@@ -1,0 +1,42 @@
+.c-section-history {
+    width: 70%;
+    margin: 12% 15% auto auto;
+    color: #495666;
+}
+
+.article-right-image {
+    position: absolute;
+    top: 40%;
+    width: 220px;
+}
+
+.article-right-image img {
+    border-radius: 8px;
+}
+
+.article-right-image.one {
+    position: absolute;
+    left: 10%;
+}
+
+.article-right-image.two {
+    position: absolute;
+    left: 55%;
+}
+
+.article-right-mini-image {
+    width: 70px;
+    position: absolute;
+    top: 31%;
+    background-color: white;
+    box-shadow: -1px 0px 9px 1px rgba(0,0,0,0.75);
+    border-radius: 8px;
+}
+
+.article-right-mini-image.one {
+    left: 4%;
+}
+
+.article-right-mini-image.two {
+    left: 86%;
+}

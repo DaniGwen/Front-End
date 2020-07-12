@@ -1,0 +1,24 @@
+.c-section-laboratory {
+    color: #495666;
+    width: 70%;
+    margin: 10% 15% 10% auto;
+}
+
+.c-article-image {
+    width: 240px;
+    position: absolute;
+}
+
+.c-article-image img {
+    border-radius: 8px;
+}
+
+.c-article-image.one {
+    top: 50%;
+    left: 10%;
+}
+
+.c-article-image.two {
+    top: 0%;
+    left: 60%;
+}

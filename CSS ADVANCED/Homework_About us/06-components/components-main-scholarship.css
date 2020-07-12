@@ -1,0 +1,18 @@
+.c-our-vision--scholarship {
+    padding-bottom: 5%;
+}
+
+.c-section-scholarship {
+    position: relative;
+}
+
+.c-teaching-woman {
+    position: absolute;
+    width: 600px;
+    top: 60%;
+    left: 33%;
+}
+
+.c-teaching-woman__image{
+    border-radius: 10px;
+}

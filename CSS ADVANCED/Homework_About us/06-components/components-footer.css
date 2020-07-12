@@ -1,0 +1,48 @@
+.c-footer {
+    width: 80%;
+    margin: 4% auto 0 auto;
+    border-top: 1px solid #606B79;
+    padding: 3% 0;
+    
+}
+
+.c-logo {
+    width: 300px;
+    margin-right: auto;
+}
+
+.c-logo__image-and-text-wrapper {
+    align-items: center;
+}
+
+.c-logo__wrapper {
+    width: 100px;
+    margin-right: 2%;
+}
+
+.c-logo__copy-write {
+    opacity: 0.4;
+}
+
+.c-footer__nav {
+    align-self: center;
+    font-size: 0.8em;
+    margin-right: 2%;
+}
+
+.c-nav__link {
+    display: flex;
+    width: 95px;
+    justify-content: space-between;
+    color: #6B7683;
+}
+
+.c-footer__contact-us {
+    align-self: center;
+    width: 100px;
+}
+
+.c-footer__fab {
+    margin-right: 10%;
+    color: #606B79;
+}
