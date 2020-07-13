@@ -1,0 +1,54 @@
+.c-red-colors {
+    width: 39%;
+    text-align: center;
+}
+
+.c-red-colors__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.c-red-colors__400-first {
+    background-color: #FC4C50;
+}
+
+.c-red-colors__50 {
+    background-color: #FFEBEF;
+}
+
+.c-red-colors__100 {
+    background-color: #FFCDD3;
+}
+
+.c-red-colors__200 {
+    background-color: #F7999B;
+}
+
+.c-red-colors__300 {
+    background-color: #F07073;
+}
+
+.c-red-colors__400 {
+    background-color: #FC4C50;
+}
+
+.c-red-colors__500 {
+    background-color: #FF3632;
+}
+
+.c-red-colors__600 {
+    background-color: #F32B33;
+}
+
+.c-red-colors__700 {
+    background-color: #E11E2D;
+}
+
+.c-red-colors__800 {
+    background-color: #D41325;
+}
+
+.c-red-colors__900 {
+    background-color: #C50018;
+}

@@ -1,0 +1,14 @@
+.o-column-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.o-row-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.o-row-container--center-with-space{
+   justify-content: center;
+   margin-top: 20%;
+}
