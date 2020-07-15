@@ -1,0 +1,101 @@
+.footer {
+    background-color: #565656;
+    height: 300px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__stripe {
+    height: 12px;
+    width: 100%;
+    background-color: #919191;
+    margin-top: 120px;
+}
+
+.footer__mask {
+    position: absolute;
+    top: -35%;
+    left: 7%;
+}
+
+.footer__softuni-kids {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer__article__title {
+    text-align: center;
+}
+
+.footer__links {
+    text-align: left;
+    padding: 0;
+}
+
+.footer__softuni-kids__links_policy {
+    padding-top: 87px;
+    padding-left: 24px;
+    text-align: left;
+}
+
+.footer__articles {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 26%;
+}
+
+.footer__link {
+    color: #E6E6E6;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__list-item {
+    padding: 6px 0;
+}
+
+.footer__link:hover {
+    color: #41BEAD;
+}
+
+.footer__article__title {
+    color: #FFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: left;
+    margin: 64px 0 14px 0;
+}
+
+.footer__all-courses {
+    margin-left: 78px;
+}
+
+.footer__all-initiatives {
+    margin-left: 85px;
+}
+
+.footer_find-us {
+    width: 177px;
+    margin-left: 85px;
+}
+
+.footer_social-media-icons-container {
+    width: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__social-media-icon {
+    color: #E6E6E6;
+    font-size: 28px;
+}
+
+.footer__all-rights-reserved {
+    padding-top: 48px;
+    color: #919191;
+}
