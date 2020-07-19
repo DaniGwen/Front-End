@@ -1,0 +1,133 @@
+.cards--wrapper {
+  margin: 50px 0;
+}
+
+@media (max-width: 1200px) {
+  .cards--wrapper {
+    text-align: -webkit-center;
+  }
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .cards {
+    display: block;
+  }
+}
+
+.cards .card {
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2), 0px 3px 4px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+  width: 400px;
+}
+
+@media (max-width: 1200px) {
+  .cards .card {
+    width: 60%;
+    height: 30%;
+    margin-bottom: 4%;
+  }
+}
+
+.cards .card:hover {
+  cursor: pointer;
+  background: #f8f8f8;
+}
+
+.cards .card:hover .card__content {
+  background: #f8f8f8;
+}
+
+.cards .card:hover .card__footer {
+  background: #f8f8f8;
+}
+
+.cards .card__header {
+  min-height: 160px;
+  color: #ffffff;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.cards .card__header--blue {
+  background: #44a9f8;
+}
+
+.cards .card__header--green {
+  background: #41bead;
+}
+
+.cards .card__title {
+  text-align: center;
+}
+
+.cards .card__label {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: fit-content;
+  text-transform: uppercase;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.cards .card__label--gray {
+  background: #676781;
+}
+
+.cards .card__label--violet {
+  background: #9a5dc6;
+}
+
+.cards .card__content {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.cards .card__info {
+  display: inline-block;
+  width: 40%;
+  margin: 5px 0;
+}
+
+.cards .card__footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .cards .card__footer {
+    display: block;
+  }
+}
+
+.cards .card__footer::before {
+  content: "";
+  background: #ffffff;
+  width: 360px;
+  height: 1px;
+  display: inline-block;
+  position: relative;
+  top: -20px;
+}
+
+.cards .card__price {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #fc4c50;
+  width: 30%;
+}
