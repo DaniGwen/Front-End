@@ -1,0 +1,17 @@
+.o-box {
+    width: 200px;
+    height: 200px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+    border-radius: 10px;
+    transition: all 1s ease-out;
+
+    &:hover {
+        transform: translate(40%,-10%) scale(0.5);
+        background-color: blue;
+        color: yellow;
+    }
+}

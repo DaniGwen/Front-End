@@ -1,0 +1,31 @@
+.c-gradient {
+  height: 400px;
+  width: 600px;
+}
+
+.c-gradient::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+  background: linear-gradient(0deg, #020024 0%, #090979 13%, #51e2ff 75%);
+  transition: 1s;
+}
+
+.c-gradient::before {
+  position: absolute;
+  content: "";
+  background: linear-gradient(0deg, #07bfaa 22%, #267909 59%, #ffee51 95%);
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+}
+
+.c-gradient:hover::after {
+  opacity: 0;
+}
+
+.c-gradient:hover::before {
+  animation: fade-in ease 1s;
+}
