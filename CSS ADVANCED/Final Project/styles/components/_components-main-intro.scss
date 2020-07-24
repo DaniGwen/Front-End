@@ -1,0 +1,21 @@
+@import "../settings/_settings-colors.scss";
+@import "../settings/_settings-mixins.scss";
+.main-intro {
+    margin-top: 142%;
+
+    &__text {
+        align-items: center;
+        padding: 0 5% 8% 5%;
+        color: $Grey700;
+    }
+
+    &__image-wrapper {
+        position: relative;
+        padding: 0 5%;
+
+        &:after {
+            content: url(../../assets/icons/play_alternative.svg);
+            @include position(absolute, 35%, 42%);
+        }
+    }
+}

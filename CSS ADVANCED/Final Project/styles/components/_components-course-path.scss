@@ -1,0 +1,64 @@
+@import "../settings/settings-colors";
+@import "../settings/settings-mixins";
+@import "../settings/settings-shadows";
+
+.c-course-path {
+    width: 100%;
+    height: 760px;
+    background-color: $Secondary500;
+    position: relative;
+    margin-top: 10%;
+    box-shadow: $Shadow1dp;
+
+    &:before {
+        content: url("../../assets/icons/yellow\ section.svg");
+        @include position(absolute, -9px, 0%);
+    }
+
+    &:after {
+        content: url("../../assets/icons/yellow\ section\ end.svg");
+        @include position(absolute, 751px, 0);
+    }
+
+    &__title {
+        margin: 0 0 10% 17%;
+        padding-top: 10%;
+        font-weight: 600;
+
+        &:before {
+            content: url("../../assets/icons/book.svg");
+            @include position(absolute, 5%, 5%);
+        }
+    }
+
+    &__text {
+        padding: 0 5%;
+    }
+
+    &__title-exercises {
+        margin-right: 65%;
+        margin-bottom: 15px;
+    }
+
+    &__input {
+        background-color: $White;
+        width: 335px;
+        border-radius: 6px;
+        border: none;
+        margin-bottom: 16px;
+        padding: 4% 10% 4% 4%;
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: bold;
+        position: relative;
+
+        & span {
+            margin-right: 2%;
+        }
+
+        &:after {
+            content: url("../../assets/icons/Arrow-down.svg");
+            @include position(absolute, 35%, 90%);
+        }
+    }
+}

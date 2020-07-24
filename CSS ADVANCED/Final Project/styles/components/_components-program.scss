@@ -1,0 +1,117 @@
+@import "../settings/_settings-colors.scss";
+@import "../settings/_settings-breakpoints.scss";
+@import "../settings/_settings-mixins.scss";
+
+.program {
+    text-align: center;
+
+    &__header {
+        width: 70%;
+        margin: 0 auto;
+
+        .program__title {
+            text-align: center;
+            color: $Primary300;
+        }
+
+        .program__info {
+            color: $Grey700;
+            margin: 0;
+            margin-bottom: 64px;
+
+            @include for-phone-only {
+                text-align: left;
+            }
+        }
+    }
+
+    .program__card-section {
+        display: flex;
+        justify-content: space-between;
+
+        @include anything-before-desktop {
+            display: block;
+            text-align: -webkit-center;
+        }
+
+        .program__card {
+            position: relative;
+            padding: 33px 50px;
+            width: 610px;
+
+            @include anything-before-desktop {
+                width: 60%;
+                margin-bottom: 2%;
+                padding: 20px 20px;
+            }
+        }
+
+        .program__image {
+            @include position(absolute, 22%, 26%);
+
+            @include anything-before-desktop {
+                top: 20%;
+                left: 23%;
+            }
+
+            @include for-phone-only {
+                display: none;
+            }
+        }
+
+        .program__card__title {
+            padding-left: 90px;
+
+            @include for-phone-only {
+                padding: 0;
+            }
+        }
+
+        .program__card--blue {
+            background-color: $Blue50;
+            border: 4px solid $Blue400;
+            box-sizing: border-box;
+            border-radius: 12px;
+        }
+
+        .program__card__title--blue {
+            color: $Blue400;
+        }
+
+        .program__card--green {
+            background-color: $Primary50;
+            border: 4px solid $Primary400;
+            box-sizing: border-box;
+            border-radius: 12px;
+        }
+
+        .program__card__title--green {
+            color: $Primary400;
+        }
+
+        .program__card__info {
+            margin: 0;
+            padding-bottom: 30px;
+
+            @include for-phone-only {
+                text-align: left;
+            }
+        }
+
+        .program__card__button {
+            padding: 14px 32px;
+            background-color: $Secondary800;
+            color: $White;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 20px;
+
+            @include for-phone-only {
+                font-size: 10px;
+                line-height: 16px;
+                padding: 7px 32px;
+            }
+        }
+    }
+}

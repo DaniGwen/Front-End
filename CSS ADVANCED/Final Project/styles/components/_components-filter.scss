@@ -1,0 +1,75 @@
+@import "../settings/_settings-colors.scss";
+
+.filter--wrapper {
+    background: $White;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @include anything-before-desktop {
+        display: block;
+        width: 60%;
+        text-align: center;
+    }
+
+    &__label {
+        @include anything-before-desktop {
+            display: block;
+            margin-bottom: 2%;
+        }
+
+        .filter__label__img {
+            @include for-phone-only {
+                display: none;
+            }
+        }
+    }
+
+    &__title {
+        color: $Grey700;
+
+        @include anything-before-desktop {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    &__label--level {
+        @include anything-before-desktop {
+            padding-left: 3%;
+        }
+    }
+
+    // &__label__img {
+    //     position: relative;
+    //     top: 5px;
+    //     right: 15px;
+    // }
+
+    &__label__img--info {
+        left: 10px;
+    }
+
+    &__label::after {
+        content: "";
+        background: url(../../assets/icons/arrow.svg) center no-repeat;
+        width: 12px;
+        height: 8px;
+        display: inline-block;
+        position: relative;
+        right: 30px;
+    }
+
+    &__label--level::after {
+        content: "";
+        background: url(../../assets/icons/arrow.svg) center no-repeat;
+        width: 12px;
+        height: 8px;
+        display: inline-block;
+        position: relative;
+        right: 50px;
+    }
+}

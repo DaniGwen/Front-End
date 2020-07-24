@@ -1,0 +1,31 @@
+@import "./generic/_generic-normalize.scss";
+
+@import "./settings/_settings-typography.scss";
+@import "./settings/_settings-mixins.scss";
+@import "./settings/_settings-colors.scss";
+@import "./settings/_settings-shadows.scss";
+
+@import "./objects/_objects-containers.scss";
+
+@import "./elements/_elements-links.scss";
+@import "./elements/_elements-input-fields.scss";
+@import "./elements/_elements-paragraphs.scss";
+@import "./elements/_elements-lists.scss";
+@import "./elements/_elements-body.scss";
+
+@import "./utilities/_utilities-centered.scss";
+@import "./utilities/_utilities-hidden.scss";
+
+@import "./components/_components-header.scss";
+@import "./components/_components-navigation.scss";
+@import "./components/_components-button.scss";
+@import "./components/_components-card.scss";
+@import "./components/_components-filter.scss";
+@import "./components/_components-program.scss";
+@import "./components/_components-footer.scss";
+@import "./components/_components-ellipses.scss";
+@import "./components/_components-signup.scss";
+@import "./components/_components-main-intro.scss";
+@import "./components/_components-for-who.scss";
+@import "./components/_components-important.scss";
+@import "./components/_components-course-path.scss";

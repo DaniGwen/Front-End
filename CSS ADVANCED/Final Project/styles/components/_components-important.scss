@@ -1,0 +1,27 @@
+@import "../settings/_settings-mixins";
+@import "../settings/_settings-colors";
+
+.c-important {
+    position: relative;
+    &__title {
+        font-weight: 600;
+        margin-top: 0;
+        margin-right: 25%;
+ 
+
+        &:before {
+            content: url(/assets/icons/bell.svg);
+            @include position(absolute, 0, 8%);
+        }
+    }
+
+    &__text {
+        padding: 0 5%;
+        margin-bottom: 8%;
+
+
+        & span {
+            font-weight: bold;
+        }
+    }
+}
