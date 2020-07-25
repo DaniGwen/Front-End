@@ -1,0 +1,37 @@
+@import "../settings/_settings-colors";
+
+.c-extra-info {
+    &__title {
+        margin: 18% 0 5% 18%;
+        position: relative;
+        font-weight: 600;
+
+        &:before {
+            content: url("../../assets/icons/lamp.svg");
+            @include position(absolute, 3%, -16%);
+        }
+    }
+
+    &__text {
+        padding: 0 5% 6% 5%;
+
+        & a {
+            position: relative;
+            color: $Secondary500;
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        & a:after {
+            content: "";
+            @include position(absolute, 103%, 0%);
+            width: 25px;
+            height: 1px;
+            background-color: $Secondary500;
+        }
+
+        & span {
+            font-weight: bold;
+        }
+    }
+}

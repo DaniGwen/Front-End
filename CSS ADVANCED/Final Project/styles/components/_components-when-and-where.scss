@@ -1,0 +1,28 @@
+.c-when-and-where {
+    position: relative;
+
+    &:after {
+        content: url("../../assets/icons/yellow-dots.svg");
+        @include position(absolute, 103%, 5%);
+    }
+
+    &__title {
+        margin: 16% 0% 5% 19%;
+        font-weight: 600;
+        position: relative;
+
+        // Icon on the left of title
+        &:before {
+            content: url("../../assets/icons/clock.svg");
+            @include position(absolute, 3%, -18%);
+        }
+    }
+
+    &__text {
+        padding: 0 5% 6% 5%;
+
+        & span {
+            font-weight: bold;
+        }
+    }
+}

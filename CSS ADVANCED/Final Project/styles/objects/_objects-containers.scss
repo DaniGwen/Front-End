@@ -5,6 +5,8 @@
 }
 
 .container-column-centered{
+    width: 100%;
+    height: auto;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;

@@ -7,6 +7,10 @@
     width: 100%;
     background-color: $Grey500;
     margin-top: 160px;
+
+    @include for-phone-only {
+        margin-top: 20%;
+    }
 }
 
 .footer {
@@ -22,7 +26,8 @@
     }
 
     @include for-phone-only {
-        height: 600px;
+        height: 570px;
+        padding-left: 0%;
 
         &:after {
             content: "";
@@ -61,6 +66,7 @@
         .footer__article_wrapper--left {
             display: flex;
             flex-basis: 49%;
+            margin-top: 5%;
 
             @include for-phone-only {
                 flex-flow: row wrap;
@@ -76,7 +82,7 @@
                     flex-flow: row wrap;
                     flex-basis: 100%;
                     align-content: baseline;
-                    height: 300px;
+                    height: auto;
 
                     .footer__softuni-kids__wrapper {
                         height: 76%;
@@ -107,6 +113,7 @@
     .footer__article_wrapper--right {
         display: flex;
         flex-basis: 46%;
+        margin-top: 5%;
         justify-content: space-between;
 
         @include for-phone-only {
@@ -180,7 +187,8 @@
         margin: 64px 0 14px 0;
 
         @include for-phone-only {
-            margin-top: 40px;
+            width: 110%;
+            margin-top: 20px;
             font-size: 17px;
         }
     }

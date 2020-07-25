@@ -6,12 +6,13 @@
     &__title {
         position: relative;
         width: 50%;
-        margin-right: 10%;
+        margin-right: 20%;
         font-weight: 600;
 
+        // Icon on the left of the title
         &:before {
             content: url(../../assets/icons/people.svg);
-            @include position(absolute, 10%, -35%);
+            @include position(absolute, 10%, -26%);
             transform: scale(1.2);
         }
     }
@@ -20,6 +21,6 @@
     }
 
     &__dots-image {
-        margin: 10% 0 0;
+        margin: 10% 10% 0 0;
     }
 }

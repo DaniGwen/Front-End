@@ -327,6 +327,8 @@ h5 {
 }
 
 .container-column-centered {
+  width: 100%;
+  height: auto;
   display: flex;
   flex-flow: column wrap;
   justify-content: center;
@@ -813,6 +815,12 @@ body {
   margin-top: 160px;
 }
 
+@media (max-width: 599px) {
+  .footer__stripe {
+    margin-top: 20%;
+  }
+}
+
 .footer {
   background-color: #565656;
   position: relative;
@@ -830,7 +838,8 @@ body {
 
 @media (max-width: 599px) {
   .footer {
-    height: 600px;
+    height: 570px;
+    padding-left: 0%;
   }
   .footer:after {
     content: "";
@@ -878,6 +887,7 @@ body {
 .footer__articles .footer__article_wrapper--left {
   display: flex;
   flex-basis: 49%;
+  margin-top: 5%;
 }
 
 @media (max-width: 599px) {
@@ -898,7 +908,7 @@ body {
     flex-flow: row wrap;
     flex-basis: 100%;
     align-content: baseline;
-    height: 300px;
+    height: auto;
   }
   .footer__articles .footer__article_wrapper--left .footer__softuni-kids .footer__softuni-kids__wrapper {
     height: 76%;
@@ -930,6 +940,7 @@ body {
 .footer .footer__article_wrapper--right {
   display: flex;
   flex-basis: 46%;
+  margin-top: 5%;
   justify-content: space-between;
 }
 
@@ -1016,7 +1027,8 @@ body {
 
 @media (max-width: 599px) {
   .footer .footer__article__title {
-    margin-top: 40px;
+    width: 110%;
+    margin-top: 20px;
     font-size: 17px;
   }
 }
@@ -1168,7 +1180,7 @@ body {
 .c-for-who__title {
   position: relative;
   width: 50%;
-  margin-right: 10%;
+  margin-right: 20%;
   font-weight: 600;
 }
 
@@ -1176,7 +1188,7 @@ body {
   content: url(../../assets/icons/people.svg);
   position: absolute;
   top: 10%;
-  left: -35%;
+  left: -26%;
   transform: scale(1.2);
 }
 
@@ -1185,7 +1197,7 @@ body {
 }
 
 .c-for-who__dots-image {
-  margin: 10% 0 0;
+  margin: 10% 10% 0 0;
 }
 
 .c-important {
@@ -1281,4 +1293,74 @@ body {
   position: absolute;
   top: 35%;
   left: 90%;
+}
+
+.c-when-and-where {
+  position: relative;
+}
+
+.c-when-and-where:after {
+  content: url("../../assets/icons/yellow-dots.svg");
+  position: absolute;
+  top: 103%;
+  left: 5%;
+}
+
+.c-when-and-where__title {
+  margin: 16% 0% 5% 19%;
+  font-weight: 600;
+  position: relative;
+}
+
+.c-when-and-where__title:before {
+  content: url("../../assets/icons/clock.svg");
+  position: absolute;
+  top: 3%;
+  left: -18%;
+}
+
+.c-when-and-where__text {
+  padding: 0 5% 6% 5%;
+}
+
+.c-when-and-where__text span {
+  font-weight: bold;
+}
+
+.c-extra-info__title {
+  margin: 18% 0 5% 18%;
+  position: relative;
+  font-weight: 600;
+}
+
+.c-extra-info__title:before {
+  content: url("../../assets/icons/lamp.svg");
+  position: absolute;
+  top: 3%;
+  left: -16%;
+}
+
+.c-extra-info__text {
+  padding: 0 5% 6% 5%;
+}
+
+.c-extra-info__text a {
+  position: relative;
+  color: #ffc20a;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.c-extra-info__text a:after {
+  content: "";
+  position: absolute;
+  top: 103%;
+  left: 0%;
+  width: 25px;
+  height: 1px;
+  background-color: #ffc20a;
+}
+
+.c-extra-info__text span {
+  font-weight: bold;
 }
