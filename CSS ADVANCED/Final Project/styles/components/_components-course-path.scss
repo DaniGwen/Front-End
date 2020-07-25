@@ -10,14 +10,16 @@
     margin-top: 10%;
     box-shadow: $Shadow1dp;
 
+    // Dots image
     &:before {
-        content: url("../../assets/icons/yellow\ section.svg");
+        content: url("../../assets/icons/yellow section.svg");
         @include position(absolute, -9px, 0%);
     }
 
+    // Dots image end section
     &:after {
         content: url("../../assets/icons/yellow\ section\ end.svg");
-        @include position(absolute, 751px, 0);
+        @include position(absolute, 752px, 0);
     }
 
     &__title {

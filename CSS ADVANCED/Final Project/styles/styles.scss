@@ -13,9 +13,11 @@
 @import "./elements/_elements-lists.scss";
 @import "./elements/_elements-body.scss";
 
+@import "./utilities/_utilities-property-constants.scss";
 @import "./utilities/_utilities-centered.scss";
 @import "./utilities/_utilities-hidden.scss";
 
+// Components for courses page
 @import "./components/_components-header.scss";
 @import "./components/_components-navigation.scss";
 @import "./components/_components-button.scss";
@@ -31,3 +33,7 @@
 @import "./components/_components-course-path.scss";
 @import "./components/_components-when-and-where.scss";
 @import "./components/_components-extra-info.scss";
+
+// Components for trainers page
+@import "./components/_components-trainers-trainers.scss";
+@import "./components/_components-trainers-managers.scss";

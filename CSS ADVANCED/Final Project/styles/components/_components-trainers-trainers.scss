@@ -1,0 +1,16 @@
+@import "../settings/_settings-colors";
+@import "../utilities/_utilities-property-constants";
+.c-trainers {
+    background-color: $Secondary600;
+
+    &__title {
+        margin: 0 0 7% 0;
+        padding-top: 16%;
+        color: $White;
+    }
+
+    &__text {
+        color: $White;
+        padding: 0 $phone-side-padding 18% $phone-side-padding;
+    }
+}
