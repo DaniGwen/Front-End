@@ -1,0 +1,22 @@
+@import "../settings/_settings-colors";
+.c-teachers {
+    margin-top: 35.5%;
+
+    &__teacher {
+        margin-bottom: 12%;
+    }
+}
+
+.c-teacher {
+    &__name {
+        margin: 7% 0 3% 0;
+        color: $Primary300;
+    }
+
+    &__role {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: $Grey400;
+    }
+}

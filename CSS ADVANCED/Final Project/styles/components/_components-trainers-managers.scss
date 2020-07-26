@@ -2,6 +2,16 @@
 @import "../utilities/_utilities-property-constants";
 
 .c-managers {
+    &__wrapper {
+        position: relative;
+
+        &:after {
+            content: url("../../assets/icons/blue-dots.svg");
+            @include position(absolute, 103.9%, 5.1%);
+            z-index: 1;
+        }
+    }
+
     &__image {
         margin-top: 13%;
     }

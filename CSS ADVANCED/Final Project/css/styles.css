@@ -1385,6 +1385,18 @@ body {
   padding: 0 5.3% 18% 5.3%;
 }
 
+.c-managers__wrapper {
+  position: relative;
+}
+
+.c-managers__wrapper:after {
+  content: url("../../assets/icons/blue-dots.svg");
+  position: absolute;
+  top: 103.9%;
+  left: 5.1%;
+  z-index: 1;
+}
+
 .c-managers__image {
   margin-top: 13%;
 }
@@ -1406,4 +1418,24 @@ body {
 
 .c-managers__details {
   padding: 0 5.3%;
+}
+
+.c-teachers {
+  margin-top: 35.5%;
+}
+
+.c-teachers__teacher {
+  margin-bottom: 12%;
+}
+
+.c-teacher__name {
+  margin: 7% 0 3% 0;
+  color: #41bead;
+}
+
+.c-teacher__role {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #b2b2b2;
 }
