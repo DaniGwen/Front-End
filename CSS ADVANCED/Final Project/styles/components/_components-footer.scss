@@ -10,6 +10,10 @@
 
     @include for-phone-only {
         margin-top: 20%;
+
+        &--trainers {
+            margin: 0;
+        }
     }
 }
 

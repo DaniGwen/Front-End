@@ -1,0 +1,42 @@
+@import "../settings/settings-colors";
+@import "../utilities/utilities-property-constants";
+
+.c-become-a-part {
+    position: relative;
+    background-color: $Blue300;
+    color: $White;
+    padding: 0 $phone-side-padding;
+    margin-top: 24%;
+
+    // Blue stripe
+    &:before {
+        content: "";
+        @include position(absolute, 0, 0);
+        height: 12px;
+        width: 100%;
+        background-color: $Blue200;
+    }
+
+    &__title {
+        margin: 21% 0 7% 0;
+        font-weight: bold;
+    }
+
+    &__text {
+        margin-bottom: 14%;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 5% 5%;
+        border: 1px solid white;
+        border-radius: 6px;
+        margin-bottom: 10%;
+    }
+
+    &__button {
+        margin-top: 4%;
+        margin-bottom: 19%;
+        padding: 4% 38.5%;
+    }
+}

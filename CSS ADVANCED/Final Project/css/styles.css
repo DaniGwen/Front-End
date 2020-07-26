@@ -819,6 +819,9 @@ body {
   .footer__stripe {
     margin-top: 20%;
   }
+  .footer__stripe--trainers {
+    margin: 0;
+  }
 }
 
 .footer {
@@ -1438,4 +1441,45 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #b2b2b2;
+}
+
+.c-become-a-part {
+  position: relative;
+  background-color: #66B9F8;
+  color: #ffffff;
+  padding: 0 5.3%;
+  margin-top: 24%;
+}
+
+.c-become-a-part:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12px;
+  width: 100%;
+  background-color: #92CDFB;
+}
+
+.c-become-a-part__title {
+  margin: 21% 0 7% 0;
+  font-weight: bold;
+}
+
+.c-become-a-part__text {
+  margin-bottom: 14%;
+}
+
+.c-become-a-part__input {
+  width: 100%;
+  padding: 5% 5%;
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-bottom: 10%;
+}
+
+.c-become-a-part__button {
+  margin-top: 4%;
+  margin-bottom: 19%;
+  padding: 4% 38.5%;
 }
