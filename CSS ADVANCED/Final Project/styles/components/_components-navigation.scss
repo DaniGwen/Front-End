@@ -13,26 +13,44 @@
 
     &__items {
         display: flex;
+        margin-left: 30%;
+
+        @include for-phone-only {
+            display: none;
+
+            &:hover {
+                display: block;
+                text-align: center;
+                margin: 0;
+            }
+        }
 
         @include anything-before-desktop {
             padding: 0;
             flex-flow: row wrap;
         }
+    }
+    &__item {
+        list-style: none;
+        margin: 2% 17px;
 
-        .navbar__item {
-            list-style: none;
-            margin: 15px;
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: $Grey700;
 
-            a {
-                text-decoration: none;
-                text-transform: uppercase;
-                color: $Grey700;
-
-                &:hover {
-                    cursor: pointer;
-                    color: $Secondary800;
-                }
+            &:hover {
+                cursor: pointer;
+                color: $Secondary800;
             }
+        }
+    }
+
+    &__hamburger{
+        display: none;
+
+        @include for-phone-only{
+            display: block;
         }
     }
 }

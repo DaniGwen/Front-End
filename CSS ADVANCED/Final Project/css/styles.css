@@ -383,6 +383,10 @@ body {
   margin: 0 auto;
 }
 
+.hidden {
+  display: none;
+}
+
 .header {
   position: relative;
 }
@@ -422,6 +426,18 @@ body {
 
 .navbar__items {
   display: flex;
+  margin-left: 30%;
+}
+
+@media (max-width: 599px) {
+  .navbar__items {
+    display: none;
+  }
+  .navbar__items:hover {
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -431,20 +447,30 @@ body {
   }
 }
 
-.navbar__items .navbar__item {
+.navbar__item {
   list-style: none;
-  margin: 15px;
+  margin: 2% 17px;
 }
 
-.navbar__items .navbar__item a {
+.navbar__item a {
   text-decoration: none;
   text-transform: uppercase;
   color: #565656;
 }
 
-.navbar__items .navbar__item a:hover {
+.navbar__item a:hover {
   cursor: pointer;
   color: #ff9100;
+}
+
+.navbar__hamburger {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .navbar__hamburger {
+    display: block;
+  }
 }
 
 .btn {
@@ -876,7 +902,7 @@ body {
 .footer__articles {
   display: flex;
   flex: 0 1 auto;
-  padding: 0 2%;
+  padding: 1.2% 2% 0 7%;
   width: 100%;
 }
 
@@ -887,60 +913,61 @@ body {
   }
 }
 
-.footer__articles .footer__article_wrapper--left {
+.footer__article_wrapper--left {
   display: flex;
   flex-basis: 49%;
   margin-top: 5%;
 }
 
 @media (max-width: 599px) {
-  .footer__articles .footer__article_wrapper--left {
+  .footer__article_wrapper--left {
     flex-flow: row wrap;
     flex-basis: 45%;
     align-self: end;
   }
 }
 
-.footer__articles .footer__article_wrapper--left .footer__softuni-kids {
+.footer__all-courses {
+  margin-left: 3%;
+}
+
+@media (max-width: 599px) {
+  .footer__all-courses {
+    margin: 3% 0 0 0;
+  }
+}
+
+.footer__softuni-kids {
   display: flex;
   flex-basis: 54%;
 }
 
 @media (max-width: 599px) {
-  .footer__articles .footer__article_wrapper--left .footer__softuni-kids {
+  .footer__softuni-kids {
     flex-flow: row wrap;
     flex-basis: 100%;
     align-content: baseline;
     height: auto;
   }
-  .footer__articles .footer__article_wrapper--left .footer__softuni-kids .footer__softuni-kids__wrapper {
-    height: 76%;
-  }
 }
 
-.footer__articles .footer__article_wrapper--left .footer__softuni-kids .footer__softuni-kids__links_policy {
-  padding: 87px 0 5px 13px;
+.footer__softuni-kids__links_policy {
+  padding: 7.4% 0 5px 13px;
   text-align: left;
 }
 
 @media (max-width: 599px) {
-  .footer__articles .footer__article_wrapper--left .footer__softuni-kids .footer__softuni-kids__links_policy {
+  .footer__softuni-kids__links_policy {
     padding: 0;
     margin: 0;
   }
 }
 
-.footer__articles .footer__article_wrapper--left .footer__all-courses {
-  margin-left: 3%;
+.footer__softuni-kids__wrapper {
+  height: 76%;
 }
 
-@media (max-width: 599px) {
-  .footer__articles .footer__article_wrapper--left .footer__all-courses {
-    margin: 0;
-  }
-}
-
-.footer .footer__article_wrapper--right {
+.footer__article_wrapper--right {
   display: flex;
   flex-basis: 46%;
   margin-top: 5%;
@@ -948,66 +975,56 @@ body {
 }
 
 @media (max-width: 599px) {
-  .footer .footer__article_wrapper--right {
+  .footer__article_wrapper--right {
     flex-flow: row wrap;
     flex-basis: 55%;
     align-self: end;
   }
 }
 
-.footer .footer__article_wrapper--right .footer__all-initiatives {
-  margin-left: 3%;
-}
-
-@media (max-width: 599px) {
-  .footer .footer__article_wrapper--right .footer__all-initiatives {
-    margin: 0;
-  }
-}
-
-.footer .footer__article_wrapper--right .footer__find-us {
+.footer__find-us {
   width: 37%;
 }
 
 @media (max-width: 599px) {
-  .footer .footer__article_wrapper--right .footer__find-us {
-    margin-top: 3%;
+  .footer__find-us {
+    margin-top: 3.3%;
     width: 60%;
   }
-  .footer .footer__article_wrapper--right .footer__find-us .footer__article__title {
+  .footer__find-us .footer__article__title {
     display: none;
   }
 }
 
-.footer .footer__article_wrapper--right .footer__find-us .footer__social-media-icons-container {
+.footer__social-media-icons-container {
   width: 53%;
   display: flex;
   justify-content: space-between;
 }
 
 @media (max-width: 599px) {
-  .footer .footer__article_wrapper--right .footer__find-us .footer__social-media-icons-container {
+  .footer__social-media-icons-container {
     width: 80%;
   }
 }
 
-.footer .footer__article_wrapper--right .footer__find-us .footer__social-media-icons-container .footer__social-media-icon {
+.footer__social-media-icon {
   color: #ffffff;
   font-size: 28px;
 }
 
-.footer .footer__article_wrapper--right .footer__find-us .footer__social-media-icons-container .footer__social-media-icon:hover {
+.footer__social-media-icon:hover {
   cursor: pointer;
   color: #41bead;
 }
 
-.footer .footer__article_wrapper--right .footer__find-us .footer__all-rights-reserved {
+.footer__all-rights-reserved {
   padding-top: 48px;
   color: #919191;
 }
 
 @media (max-width: 599px) {
-  .footer .footer__article_wrapper--right .footer__find-us .footer__all-rights-reserved {
+  .footer__all-rights-reserved {
     position: absolute;
     top: 86%;
     left: 9%;
@@ -1018,34 +1035,41 @@ body {
   }
 }
 
-.footer .footer__article__title {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: left;
-  margin: 64px 0 14px 0;
+.footer__all-initiatives {
+  margin-left: 3%;
 }
 
 @media (max-width: 599px) {
-  .footer .footer__article__title {
+  .footer__all-initiatives {
+    margin: 0;
+  }
+}
+
+.footer__article__title {
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 14px;
+  margin-top: 0;
+}
+
+@media (max-width: 599px) {
+  .footer__article__title {
     width: 103%;
     margin-top: 20px;
     font-size: 17px;
   }
 }
 
-.footer .footer__links {
+.footer__links {
   text-align: left;
   padding: 0;
 }
 
-.footer .footer__list-item {
+.footer__list-item {
   padding: 6px 0;
 }
 
-.footer .footer__list-item .footer__link {
+.footer__link {
   color: #e6e6e6;
   font-style: normal;
   font-weight: normal;
@@ -1054,13 +1078,13 @@ body {
 }
 
 @media (max-width: 599px) {
-  .footer .footer__list-item .footer__link {
+  .footer__link {
     font-size: 16px;
     line-height: 19px;
   }
 }
 
-.footer .footer__list-item .footer__link:hover {
+.footer__link:hover {
   color: #41bead;
 }
 
@@ -1463,7 +1487,6 @@ body {
 
 .c-become-a-part__title {
   margin: 21% 0 7% 0;
-  font-weight: bold;
 }
 
 .c-become-a-part__text {

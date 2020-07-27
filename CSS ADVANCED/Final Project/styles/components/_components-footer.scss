@@ -11,6 +11,7 @@
     @include for-phone-only {
         margin-top: 20%;
 
+        // for trainers.html
         &--trainers {
             margin: 0;
         }
@@ -59,62 +60,62 @@
     &__articles {
         display: flex;
         flex: 0 1 auto;
-        padding: 0 2%;
+        padding: 1.2% 2% 0 7%;
         width: 100%;
 
         @include for-phone-only {
             padding-left: 15px;
             padding-right: 5px;
         }
+    }
 
-        .footer__article_wrapper--left {
-            display: flex;
-            flex-basis: 49%;
-            margin-top: 5%;
+    &__article_wrapper--left {
+        display: flex;
+        flex-basis: 49%;
+        margin-top: 5%;
 
-            @include for-phone-only {
-                flex-flow: row wrap;
-                flex-basis: 45%;
-                align-self: end;
-            }
-
-            .footer__softuni-kids {
-                display: flex;
-                flex-basis: 54%;
-
-                @include for-phone-only {
-                    flex-flow: row wrap;
-                    flex-basis: 100%;
-                    align-content: baseline;
-                    height: auto;
-
-                    .footer__softuni-kids__wrapper {
-                        height: 76%;
-                    }
-                }
-
-                .footer__softuni-kids__links_policy {
-                    padding: 87px 0 5px 13px;
-                    text-align: left;
-
-                    @include for-phone-only {
-                        padding: 0;
-                        margin: 0;
-                    }
-                }
-            }
-
-            .footer__all-courses {
-                margin-left: 3%;
-
-                @include for-phone-only {
-                    margin: 0;
-                }
-            }
+        @include for-phone-only {
+            flex-flow: row wrap;
+            flex-basis: 45%;
+            align-self: end;
         }
     }
 
-    .footer__article_wrapper--right {
+    &__all-courses {
+        margin-left: 3%;
+
+        @include for-phone-only {
+            margin: 3% 0 0 0;
+        }
+    }
+
+    &__softuni-kids {
+        display: flex;
+        flex-basis: 54%;
+
+        @include for-phone-only {
+            flex-flow: row wrap;
+            flex-basis: 100%;
+            align-content: baseline;
+            height: auto;
+        }
+    }
+
+    &__softuni-kids__links_policy {
+        padding: 7.4% 0 5px 13px;
+        text-align: left;
+
+        @include for-phone-only {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    &__softuni-kids__wrapper {
+        height: 76%;
+    }
+
+    &__article_wrapper--right {
         display: flex;
         flex-basis: 46%;
         margin-top: 5%;
@@ -125,70 +126,68 @@
             flex-basis: 55%;
             align-self: end;
         }
+    }
 
-        .footer__all-initiatives {
-            margin-left: 3%;
+    &__find-us {
+        width: 37%;
 
-            @include for-phone-only {
-                margin: 0;
-            }
-        }
+        @include for-phone-only {
 
-        .footer__find-us {
-            width: 37%;
-
-            @include for-phone-only {
-                margin-top: 3%;
-                width: 60%;
-
-                .footer__article__title {
-                    display: none;
-                }
+            .footer__article__title {
+                display: none;
             }
 
-            .footer__social-media-icons-container {
-                width: 53%;
-                display: flex;
-                justify-content: space-between;
-
-                @include for-phone-only {
-                    width: 80%;
-                }
-
-                .footer__social-media-icon {
-                    color: $White;
-                    font-size: 28px;
-
-                    &:hover {
-                        cursor: pointer;
-                        color: $Primary300;
-                    }
-                }
-            }
-
-            .footer__all-rights-reserved {
-                padding-top: 48px;
-                color: $Grey500;
-
-                @include for-phone-only {
-                    @include position(absolute, 86%, 9%);
-                    width: 80%;
-                    text-align: center;
-                    margin: 0;
-                    padding: 0;
-                }
-            }
+            margin-top: 3.3%;
+            width: 60%;
         }
     }
 
-    .footer__article__title {
+    &__social-media-icons-container {
+        width: 53%;
+        display: flex;
+        justify-content: space-between;
+
+        @include for-phone-only {
+            width: 80%;
+        }
+    }
+
+    &__social-media-icon {
         color: $White;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 28px;
+
+        &:hover {
+            cursor: pointer;
+            color: $Primary300;
+        }
+    }
+
+    &__all-rights-reserved {
+        padding-top: 48px;
+        color: $Grey500;
+
+        @include for-phone-only {
+            @include position(absolute, 86%, 9%);
+            width: 80%;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    &__all-initiatives {
+        margin-left: 3%;
+
+        @include for-phone-only {
+            margin: 0;
+        }
+    }
+
+    &__article__title {
+        color: $White;
         text-align: left;
-        margin: 64px 0 14px 0;
+        margin-bottom: 14px;
+        margin-top: 0;
 
         @include for-phone-only {
             width: 103%;
@@ -197,29 +196,29 @@
         }
     }
 
-    .footer__links {
+    &__links {
         text-align: left;
         padding: 0;
     }
 
-    .footer__list-item {
+    &__list-item {
         padding: 6px 0;
+    }
 
-        .footer__link {
-            color: $Grey200;
-            font-style: normal;
-            font-weight: normal;
+    &__link {
+        color: $Grey200;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+
+        @include for-phone-only {
             font-size: 16px;
             line-height: 19px;
+        }
 
-            @include for-phone-only {
-                font-size: 16px;
-                line-height: 19px;
-            }
-
-            &:hover {
-                color: $Primary300;
-            }
+        &:hover {
+            color: $Primary300;
         }
     }
 }
