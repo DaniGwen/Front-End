@@ -1,14 +1,53 @@
 @import "../settings/_settings-colors.scss";
 @import "../settings/_settings-breakpoints.scss";
-@import "../settings/settings-shadows";
+@import "../settings/_settings-shadows";
+@import "../settings/_settings-mixins";
 
+// Desktop first
 .navbar {
-    box-shadow: $Shadow2dp;
-
     &__wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: relative;
+        box-shadow: $Shadow2dp;
+
+        @include for-phone-only {
+            height: 70px;
+            width: 100%;
+
+            // Hide links and display small menu icon
+            &:before {
+                content: url("../../assets/icons/menu.svg");
+                @include position(absolute, 40%, 88%);
+            }
+        }
+    }
+
+    &__logo {
+        position: relative;
+
+        // Hides desktop logo
+        img {
+            @include for-phone-only {
+                display: none;
+            }
+        }
+
+        @include for-phone-only {
+            // Shows arrow before the logo
+            &:before {
+                content: url("../../assets/icons/Arrow-right.svg");
+                @include position(absolute, -10px, 20px);
+            }
+
+            // Shows smaller logo for phone size
+            &:after {
+                content: url("../../assets/icons/logo-vertical.svg");
+
+                @include position(absolute, -26px, 45px);
+            }
+        }
     }
 
     &__items {
@@ -46,11 +85,11 @@
         }
     }
 
-    &__hamburger{
-        display: none;
-
-        @include for-phone-only{
-            display: block;
+    &__button {
+        @include for-phone-only {
+            font-size: 13px;
+            line-height: 16px;
+            margin-right: 16%;
         }
     }
 }
