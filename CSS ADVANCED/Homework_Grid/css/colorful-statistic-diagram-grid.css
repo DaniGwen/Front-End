@@ -1,0 +1,51 @@
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  padding-top: 200px;
+  justify-content: center;
+  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+}
+
+.container .letter-wrapper {
+  padding: 5px;
+}
+
+.container__a {
+  background-color: cyan;
+  height: 30px;
+}
+
+.container__b {
+  background-color: yellow;
+  height: 100px;
+}
+
+.container__c {
+  background-color: pink;
+  height: 50px;
+}
+
+.container__d {
+  background-color: mediumturquoise;
+  height: 160px;
+}
+
+.container__e {
+  background-color: lightgreen;
+  height: 250px;
+}
+
+.container__f {
+  background-color: rgba(128, 0, 128, 0.678);
+  height: 200px;
+}
+
+.container__g {
+  background-color: orange;
+  height: 30px;
+}

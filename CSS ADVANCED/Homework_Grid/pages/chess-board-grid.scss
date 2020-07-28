@@ -1,0 +1,23 @@
+.container {
+    padding-top: 100px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-gap: 10px;
+
+    &__box {
+        height: 100%;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
