@@ -2,7 +2,7 @@
 @import "../settings/_settings-mixins.scss";
 
 .signup {
-    @include position(absolute, 50%, 5%);
+    @include position(absolute, 47%, 5%);
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     border-radius: 12px;
     background-color: $White;
@@ -10,12 +10,28 @@
     height: 562;
     z-index: 1;
 
+    @include for-desktop-up {
+        @include position(absolute, 36%, 5%);
+        display: flex;
+        margin: 0;
+        padding: 0;
+        width: 90%;
+        height: 115px;
+    }
+
     &__button__wrapper {
         text-align: center;
 
         .signup__button {
             margin-top: 50px;
             padding: 16px 94px;
+
+            @include for-desktop-up {
+                width: 165px;
+                height: 50px;
+                padding: 16px 10px;
+                margin: 30px 65px ;
+            }
         }
     }
 
@@ -26,8 +42,24 @@
         img {
             width: 99%;
         }
+
+        @include for-desktop-up {
+            position: relative;
+            width: 10px;
+            img {
+                display: none;
+            }
+
+            &:after {
+                content: url("../../assets/icons/vertical-dots.svg");
+                @include position(absolute, -40px, 0);
+            }
+        }
     }
     &__info {
+        @include for-desktop-up {
+            display: flex;
+        }
         .signup__group {
             display: flex;
             margin: 0 0 8% 6%;
