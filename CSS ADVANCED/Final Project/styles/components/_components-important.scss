@@ -3,15 +3,40 @@
 
 .c-important {
     position: relative;
+
+    @include for-desktop-up {
+        margin-left: 17%;
+        width: 60%;
+        align-items: flex-start;
+    }
+
+    &__title--desktop{
+        display: none;
+
+        @include for-desktop-up{
+            display: block;
+            font-weight: 600;
+            margin: 0 0 3% 0;
+
+            &:before {
+                content: url(/assets/icons/puzzle.svg);
+                @include position(absolute, -19%, -12%);
+            }
+        }
+    }
+
     &__title {
         font-weight: 600;
         margin-top: 0;
         margin-right: 25%;
- 
 
         &:before {
             content: url(/assets/icons/bell.svg);
             @include position(absolute, 0, 8%);
+        }
+
+        @include for-desktop-up {
+            display: none;
         }
     }
 
@@ -19,9 +44,13 @@
         padding: 0 5%;
         margin-bottom: 8%;
 
-
         & span {
             font-weight: bold;
+        }
+
+        @include for-desktop-up {
+            margin-bottom: 5%;
+            padding: 0 10% 0 0;
         }
     }
 }

@@ -14,9 +14,19 @@
     align-items: center;
 }
 
+
+
 @include for-desktop-up {
     .o-container-width-1290 {
-        width: 82%;
-        margin-left: 10%;
+        width: 86%;
+        margin-left: 7.5%;
+    }
+
+    .o-container-flex {
+        display: flex;
+
+        &--for-who{
+            margin-top: 2%;
+        }
     }
 }

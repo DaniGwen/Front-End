@@ -11,11 +11,11 @@
     z-index: 1;
 
     @include for-desktop-up {
-        @include position(absolute, 39%, 10%);
+        @include position(absolute, 39%, 7%);
         display: flex;
         margin: 0;
         padding: 0;
-        width: 80%;
+        width: 85%;
         height: 115px;
     }
 

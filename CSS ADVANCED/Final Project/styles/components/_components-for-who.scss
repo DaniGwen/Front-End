@@ -3,6 +3,20 @@
 .c-for-who {
     margin: 10% 0;
     width: 100%;
+    position: relative;
+
+    @include for-desktop-up {
+        padding-left: 6%;
+        margin: 0;
+        align-items: flex-start;
+        align-self: flex-start;
+        width: 60%;
+
+        &:after {
+            content: url("../../assets/icons/dots-yellow-vertical.svg");
+            @include position(absolute, -10%, 110%);
+        }
+    }
 
     &__title {
         position: relative;
@@ -16,9 +30,22 @@
             @include position(absolute, 10%, -30%);
             transform: scale(1.2);
         }
+
+        @include for-desktop-up {
+            width: auto;
+            margin: 0 0 3% 0;
+
+            &:before {
+                @include position(absolute, 10%, -23%);
+            }
+        }
     }
+
     &__text {
         padding: 0 5%;
+        @include for-desktop-up {
+            padding: 0 10% 0 0;
+        }
     }
     &__text span {
         font-weight: bold;
@@ -26,5 +53,9 @@
 
     &__dots-image {
         margin-top: 10%;
+
+        @include for-desktop-up {
+            display: none;
+        }
     }
 }

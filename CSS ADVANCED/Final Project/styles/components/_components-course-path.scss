@@ -10,6 +10,19 @@
     margin-top: 10%;
     box-shadow: $Shadow1dp;
 
+    @include for-desktop-up {
+        background-image: url("../../assets/icons/yellow-background.svg");
+        background-color: $Grey;
+        height: 565px;
+        &:after {
+            content: "";
+        }
+        &:before {
+            content: "";
+        }
+      
+    }
+
     // Dots image
     &:before {
         content: url("../../assets/icons/yellow section.svg");
@@ -27,19 +40,39 @@
         padding-top: 10%;
         font-weight: 600;
 
+        @include for-desktop-up {
+            margin: 0 0 2% 9%;
+            padding-top: 4%;
+            position: relative;
+        }
+
         &:before {
             content: url("../../assets/icons/book.svg");
             @include position(absolute, 5%, 5%);
+
+            @include for-desktop-up{
+                @include position(absolute, 68%, -4%);
+            }
         }
     }
 
     &__text {
         padding: 0 5%;
+
+        @include for-desktop-up {
+            margin: 0 0 2% 4%;
+            width: 830px;
+        }
     }
 
     &__title-exercises {
         margin-right: 65%;
         margin-bottom: 15px;
+
+        @include for-desktop-up {
+            margin: 0;
+            padding-top: 0;
+        }
     }
 
     &__input {
