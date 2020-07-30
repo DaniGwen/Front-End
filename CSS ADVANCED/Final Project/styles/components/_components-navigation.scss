@@ -26,15 +26,19 @@
 
     &__logo {
         position: relative;
+        @include for-desktop-up {
+            margin-left: 6%;
 
-        // Hides desktop logo
-        img {
-            @include for-phone-only {
-                display: none;
+            &:before {
+                content: url("../../assets/icons/arrow-right-yellow.svg");
+                @include position(absolute, 20%, -29%);
             }
         }
-
         @include for-phone-only {
+            // Hides desktop logo
+            img {
+                display: none;
+            }
             // Shows arrow before the logo
             &:before {
                 content: url("../../assets/icons/Arrow-right.svg");
@@ -63,7 +67,9 @@
                 margin: 0;
             }
         }
-
+        @include for-desktop-up {
+            margin-left: 44%;
+        }
         @include anything-before-desktop {
             padding: 0;
             flex-flow: row wrap;
@@ -90,6 +96,10 @@
             font-size: 13px;
             line-height: 16px;
             margin-right: 16%;
+        }
+
+        @include for-desktop-up {
+            margin-right: 5%;
         }
     }
 }

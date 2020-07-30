@@ -11,11 +11,11 @@
     z-index: 1;
 
     @include for-desktop-up {
-        @include position(absolute, 36%, 5%);
+        @include position(absolute, 39%, 10%);
         display: flex;
         margin: 0;
         padding: 0;
-        width: 90%;
+        width: 80%;
         height: 115px;
     }
 
@@ -30,7 +30,7 @@
                 width: 165px;
                 height: 50px;
                 padding: 16px 10px;
-                margin: 30px 65px ;
+                margin: 30px 65px;
             }
         }
     }
@@ -56,48 +56,70 @@
             }
         }
     }
+
     &__info {
         @include for-desktop-up {
             display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
         }
-        .signup__group {
-            display: flex;
-            margin: 0 0 8% 6%;
-            position: relative;
+    }
+
+    &__group {
+        display: flex;
+        margin: 0 0 8% 6%;
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 24px;
+            height: 2px;
+            background-color: $Grey100;
+            @include position(absolute, 120%, 0);
+        }
+
+        &:last-child::before {
+            display: none;
+        }
+
+        @include for-desktop-up {
+            padding: 0 8% 0 0;
+            margin: 0;
 
             &::before {
                 content: "";
-                width: 24px;
-                height: 1px;
+                width: 2px;
+                height: 24px;
                 background-color: $Grey100;
-                @include position(absolute, 120%, 0);
-            }
-
-            &:last-child::before {
-                display: none;
+                @include position(absolute, 30%, 82%);
             }
         }
+    }
 
-        .signup__price {
-            margin-top: 25%;
+    &__price {
+        margin-top: 25%;
+
+        @include for-desktop-up {
+            margin: 0;
+        }
+    }
+
+    &__details {
+        height: 60px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;
+        margin-left: 24px;
+
+        h4 {
+            margin: 0;
+            color: $Secondary800;
         }
 
-        .signup__details {
-            height: 60px;
-            display: flex;
-            flex-flow: column wrap;
-            justify-content: space-evenly;
-            margin-left: 24px;
-
-            h4 {
-                margin: 0;
-                color: $Secondary800;
-            }
-
-            h5 {
-                margin: 0;
-                color: $Grey700;
-            }
+        h5 {
+            margin: 0;
+            color: $Grey700;
         }
     }
 }

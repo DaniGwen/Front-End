@@ -1,14 +1,22 @@
+@import "../settings/settings-breakpoints";
 .container {
     max-width: 1250px;
     width: 100%;
     margin: 0 auto;
 }
 
-.container-column-centered{
+.container-column-centered {
     width: 100%;
     height: auto;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
+}
+
+@include for-desktop-up {
+    .o-container-width-1290 {
+        width: 82%;
+        margin-left: 10%;
+    }
 }
