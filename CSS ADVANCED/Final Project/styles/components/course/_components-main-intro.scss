@@ -1,0 +1,32 @@
+@import "../../settings/_settings-colors.scss";
+@import "../../settings/settings-mixins";
+
+.main-intro {
+    margin-top: 142%;
+
+    &__text {
+        align-items: center;
+        padding: 0 5% 8% 5%;
+        color: $Grey700;
+    }
+
+    &__image-wrapper {
+        position: relative;
+        padding: 0 5%;
+
+        &:after {
+            content: url(../../assets/icons/play_alternative.svg);
+            @include position(absolute, 35%, 42%);
+
+            @include for-desktop-up {
+                @include position(absolute, 33%, 40%);
+            }
+        }
+
+        @include for-desktop-up {
+            align-self: center;
+            padding: 0;
+            transform: scale(1.4);
+        }
+    }
+}

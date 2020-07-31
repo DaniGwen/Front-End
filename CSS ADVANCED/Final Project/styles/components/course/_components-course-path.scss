@@ -1,6 +1,6 @@
-@import "../settings/settings-colors";
-@import "../settings/settings-mixins";
-@import "../settings/settings-shadows";
+@import "../../settings/settings-colors";
+@import "../../settings/settings-mixins";
+@import "../../settings/settings-shadows";
 
 .c-course-path {
     width: 100%;
@@ -11,16 +11,16 @@
     box-shadow: $Shadow1dp;
 
     @include for-desktop-up {
-        background-image: url("../../assets/icons/yellow-background.svg");
-        background-color: $Grey;
-        height: 565px;
+        //background-image: url("../../assets/icons/yellow-background.svg");
+        //background-color: $Grey;
+        height: 560px;
+
         &:after {
-            content: "";
+            content: none;
         }
         &:before {
-            content: "";
+            content: none;
         }
-      
     }
 
     // Dots image
@@ -40,39 +40,23 @@
         padding-top: 10%;
         font-weight: 600;
 
-        @include for-desktop-up {
-            margin: 0 0 2% 9%;
-            padding-top: 4%;
-            position: relative;
-        }
-
         &:before {
             content: url("../../assets/icons/book.svg");
             @include position(absolute, 5%, 5%);
 
             @include for-desktop-up{
-                @include position(absolute, 68%, -4%);
+                @include position(absolute, 7%, -10%);
             }
         }
     }
 
     &__text {
         padding: 0 5%;
-
-        @include for-desktop-up {
-            margin: 0 0 2% 4%;
-            width: 830px;
-        }
     }
 
     &__title-exercises {
         margin-right: 65%;
         margin-bottom: 15px;
-
-        @include for-desktop-up {
-            margin: 0;
-            padding-top: 0;
-        }
     }
 
     &__input {
@@ -94,6 +78,14 @@
         &:after {
             content: url("../../assets/icons/Arrow-down.svg");
             @include position(absolute, 35%, 90%);
+
+            @include for-desktop-up{
+                @include position(absolute, 35%, 90%);
+            }
         }
+    }
+
+    &__icon{
+        display: none;
     }
 }

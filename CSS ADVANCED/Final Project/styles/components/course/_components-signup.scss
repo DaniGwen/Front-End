@@ -1,5 +1,5 @@
-@import "../settings/_settings-colors.scss";
-@import "../settings/_settings-mixins.scss";
+@import "../../settings/_settings-colors.scss";
+@import "../../settings/_settings-mixins.scss";
 
 .signup {
     @include position(absolute, 47%, 5%);

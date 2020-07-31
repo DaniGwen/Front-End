@@ -1,0 +1,143 @@
+@include for-desktop-up {
+    .main {
+        display: grid;
+        // 12 rows
+        grid-template-rows: 50px 96px 325px 134px 200px 60px 555px 64px 365px 108px 350px 148px;
+
+        .main-intro {
+            grid-row: 3 / 4;
+            display: grid;
+            grid-template-columns: 750px 110px 1fr;
+            margin: 0;
+
+            &__text-wrapper {
+                grid-column: 1 / 2;
+            }
+
+            &__text {
+                padding: 0 0 3% 0;
+            }
+
+            &__image-wrapper {
+                grid-column: 3 / 4;
+                margin: 0 0 0 10%;
+                justify-self: center;
+            }
+        }
+
+        &__for-who-and-important {
+            grid-row: 5 / 6;
+            margin: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-content: end;
+
+            .c-for-who {
+                margin: 0 0 0 8%;
+                width: 490px;
+                align-self: flex-start;
+                justify-self: center;
+
+                &__title {
+                    width: 100%;
+                    margin: 0;
+                }
+                &__text {
+                    padding: 3% 0;
+                }
+            }
+
+            .c-important {
+                width: 490px;
+                align-items: flex-start;
+                justify-self: end;
+                &__text {
+                    margin: 0;
+                    padding: 2% 0 3% 0;
+                }
+            }
+        }
+
+        .c-course-path {
+            padding: 0;
+            margin: 0;
+            grid-row: 7 / 8;
+            display: grid;
+            grid-template-columns: 880px 1fr;
+
+            &__article {
+                justify-self: end;
+                align-self: center;
+                width: 675px;
+            }
+
+            &__icon {
+                display: block;
+                justify-self: center;
+                align-self: center;
+                margin-top: 20%;
+            }
+
+            &__title {
+                margin: 0;
+                padding: 0 0 3% 0;
+                position: relative;
+            }
+            &__text {
+                padding: 0 0 4% 0;
+            }
+            &__input-fields {
+                align-content: flex-start;
+            }
+            &__input {
+                padding: 2%;
+                width: 676px;
+            }
+
+            &__title-exercises {
+                margin: 0;
+                padding: 0 0 2% 0;
+                align-self: flex-start;
+            }
+
+            &__icon {
+                position: relative;
+                z-index: 1;
+            }
+        }
+
+        &__certificate {
+            display: block;
+            display: grid;
+            grid-row: 9 / 10;
+            grid-template-columns: 545px 260px;
+            grid-column-gap: 240px;
+
+            &__text-wrapper{
+                align-self: flex-start;
+                justify-self: center;
+            }
+        }
+
+        &__when-and-extra {
+            grid-row: 11 / 12;
+            display: grid;
+            grid-template-columns: 545px 138px 545px;
+
+            .c-when-and-where {
+                display: block;
+                width: auto;
+                grid-column: 1 / 2;
+            }
+
+            .c-extra-info {
+                display: block;
+                width: auto;
+                grid-column: 3 / 4;
+            }
+        }
+    }
+    // .footer {
+    //     grid-row: 12 / 13;
+    // }
+}

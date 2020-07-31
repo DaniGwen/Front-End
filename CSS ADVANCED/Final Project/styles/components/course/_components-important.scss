@@ -1,19 +1,13 @@
-@import "../settings/_settings-mixins";
-@import "../settings/_settings-colors";
+@import "../../settings/_settings-mixins";
+@import "../../settings/_settings-colors";
 
 .c-important {
     position: relative;
 
-    @include for-desktop-up {
-        margin-left: 17%;
-        width: 60%;
-        align-items: flex-start;
-    }
-
-    &__title--desktop{
+    &__title--desktop {
         display: none;
 
-        @include for-desktop-up{
+        @include for-desktop-up {
             display: block;
             font-weight: 600;
             margin: 0 0 3% 0;
@@ -46,11 +40,6 @@
 
         & span {
             font-weight: bold;
-        }
-
-        @include for-desktop-up {
-            margin-bottom: 5%;
-            padding: 0 10% 0 0;
         }
     }
 }
