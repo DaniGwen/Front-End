@@ -44,7 +44,7 @@
     }
 
     &__mask {
-        @include position(absolute, -50%, 6%);
+        @include position(absolute, -42%, 6%);
         display: none;
 
         img {
@@ -60,7 +60,7 @@
     &__articles {
         display: flex;
         flex: 0 1 auto;
-        padding: 1.2% 2% 0 7%;
+        padding: 1.2% 2% 0 4%;
         width: 100%;
 
         @include for-phone-only {
@@ -102,7 +102,7 @@
     }
 
     &__softuni-kids__links_policy {
-        padding: 7.4% 0 5px 13px;
+        padding: 6.4% 0 5px 10%;
         text-align: left;
 
         @include for-phone-only {

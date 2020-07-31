@@ -11,28 +11,29 @@
     box-shadow: $Shadow1dp;
 
     @include for-desktop-up {
-        //background-image: url("../../assets/icons/yellow-background.svg");
-        //background-color: $Grey;
         height: 560px;
-
-        &:after {
-            content: none;
-        }
-        &:before {
-            content: none;
-        }
     }
 
     // Dots image
     &:before {
         content: url("../../assets/icons/yellow section.svg");
         @include position(absolute, -9px, 0%);
+
+        @include for-desktop-up {
+            content: url("../../../assets/icons/course-path-desktop.svg");
+            @include position(absolute, -10px, 1.2%);
+        }
     }
 
     // Dots image end section
     &:after {
         content: url("../../assets/icons/yellow\ section\ end.svg");
         @include position(absolute, 752px, 0);
+
+        @include for-desktop-up {
+            content: url("../../../assets/icons/course-path-desktop-shadow.svg");
+            @include position(absolute, 554px, 1.5%);
+        }
     }
 
     &__title {
@@ -44,7 +45,7 @@
             content: url("../../assets/icons/book.svg");
             @include position(absolute, 5%, 5%);
 
-            @include for-desktop-up{
+            @include for-desktop-up {
                 @include position(absolute, 7%, -10%);
             }
         }
@@ -79,13 +80,13 @@
             content: url("../../assets/icons/Arrow-down.svg");
             @include position(absolute, 35%, 90%);
 
-            @include for-desktop-up{
-                @include position(absolute, 35%, 90%);
+            @include for-desktop-up {
+                @include position(absolute, 35%, 95%);
             }
         }
     }
 
-    &__icon{
+    &__icon {
         display: none;
     }
 }

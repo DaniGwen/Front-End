@@ -1,3 +1,13 @@
-.main__certificate{
-    //display: none;
+.main__certificate {
+    display: none;
+    position: relative;
+
+    @include for-desktop-up {
+        display: grid;
+        
+        &:before {
+            content: url("../../../assets/icons/reward\ 1.svg");
+            @include position(absolute, 40%, -2%);
+        }
+    }
 }

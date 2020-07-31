@@ -4,6 +4,11 @@
     &:after {
         content: url("../../assets/icons/yellow-dots.svg");
         @include position(absolute, 103%, 5%);
+
+        @include for-desktop-up {
+            content: url("../../../assets/icons/yellow-vertical-elipses-long.svg");
+            @include position(absolute, 0%, 120%);
+        }
     }
 
     &__title {
@@ -15,6 +20,10 @@
         &:before {
             content: url("../../assets/icons/clock.svg");
             @include position(absolute, 3%, -18%);
+
+            @include for-desktop-up{
+                @include position(absolute, 3%, -11%);
+            }
         }
     }
 

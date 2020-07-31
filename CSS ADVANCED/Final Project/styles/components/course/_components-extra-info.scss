@@ -9,6 +9,10 @@
         &:before {
             content: url("../../assets/icons/lamp.svg");
             @include position(absolute, 3%, -16%);
+
+            @include for-desktop-up{
+                @include position(absolute, 3%, -12%);
+            }
         }
     }
 

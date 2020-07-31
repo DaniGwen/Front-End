@@ -1,8 +1,14 @@
+@import "../../settings/_settings-colors.scss";
+
 @include for-desktop-up {
+    .grid-container{
+        display: grid;
+        grid-template-rows: 380px 1fr 430px;
+    }
     .main {
         display: grid;
         // 12 rows
-        grid-template-rows: 50px 96px 325px 134px 200px 60px 555px 64px 365px 108px 350px 148px;
+        grid-template-rows: 50px 96px 325px 110px 200px 50px 555px 30px 365px 50px 360px 20px;
 
         .main-intro {
             grid-row: 3 / 4;
@@ -33,10 +39,10 @@
             justify-content: end;
 
             .c-for-who {
-                margin: 0 0 0 8%;
+                margin: 0 0 0 7%;
                 width: 490px;
                 align-self: flex-start;
-                justify-self: center;
+                justify-self: left;
 
                 &__title {
                     width: 100%;
@@ -69,6 +75,7 @@
                 justify-self: end;
                 align-self: center;
                 width: 675px;
+                margin-right: 2%;
             }
 
             &__icon {
@@ -107,33 +114,73 @@
         }
 
         &__certificate {
-            display: block;
-            display: grid;
             grid-row: 9 / 10;
-            grid-template-columns: 545px 260px;
-            grid-column-gap: 240px;
+            grid-template-columns: 590px 1fr;
+            grid-column-gap: 100px;
 
-            &__text-wrapper{
+            &__text-wrapper {
                 align-self: flex-start;
+                align-self: center;
+                margin-left: 7%;
+            }
+
+            &__image-wrapper {
                 justify-self: center;
+                align-self: center;
+                margin-left: 15%;
+            }
+
+            &__image {
+                background-color: $Grey300;
+                height: 260px;
+                width: 360px;
+                border-radius: 10px;
+                padding: 32% 25%;
+            }
+
+            &__title {
+                font-weight: 600;
             }
         }
 
         &__when-and-extra {
             grid-row: 11 / 12;
             display: grid;
-            grid-template-columns: 545px 138px 545px;
+            grid-template-columns: 1fr 138px 1fr;
 
             .c-when-and-where {
                 display: block;
                 width: auto;
+                width: 545px;
                 grid-column: 1 / 2;
+                margin-left: 6%;
+
+                &__title {
+                    padding: 0 0 3% 0;
+                    margin: 0;
+                }
+                &__text {
+                    padding: 0 0 4% 0;
+                }
             }
 
             .c-extra-info {
                 display: block;
                 width: auto;
                 grid-column: 3 / 4;
+                padding: 0;
+                margin: 0;
+                width: 545px;
+                justify-self: end;
+
+                &__title {
+                    padding: 0 0 3% 0;
+                    margin: 0;
+                }
+
+                &__text {
+                    padding: 0 0 4% 0;
+                }
             }
         }
     }

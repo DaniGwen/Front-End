@@ -28,7 +28,7 @@
         position: relative;
 
         @include for-desktop-up {
-            margin-left: 6%;
+            margin-left: 9%;
 
             &:before {
                 content: url("../../assets/icons/arrow-right-yellow.svg");
@@ -69,9 +69,11 @@
                 margin: 0;
             }
         }
+
         @include for-desktop-up {
-            margin-left: 44%;
+            margin-left: 30%;
         }
+
         @include anything-before-desktop {
             padding: 0;
             flex-flow: row wrap;
@@ -101,7 +103,7 @@
         }
 
         @include for-desktop-up {
-            margin-right: 5%;
+            margin-right: 8%;
         }
     }
 }
