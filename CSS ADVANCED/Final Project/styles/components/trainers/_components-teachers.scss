@@ -1,9 +1,14 @@
 @import "../../settings/_settings-colors";
+
 .c-teachers {
     margin-top: 35.5%;
 
     &__teacher {
         margin-bottom: 12%;
+    }
+
+    &__teacher--desktop {
+        display: none;
     }
 }
 

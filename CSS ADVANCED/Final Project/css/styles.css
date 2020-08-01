@@ -727,9 +727,10 @@ body {
   .footer__stripe {
     margin-top: 20%;
   }
-  .footer__stripe--trainers {
-    margin: 0;
-  }
+}
+
+.footer__stripe--trainers {
+  margin: 0;
 }
 
 .footer {
@@ -765,7 +766,7 @@ body {
 
 .footer__mask {
   position: absolute;
-  top: -42%;
+  top: -129px;
   left: 6%;
   display: none;
 }
@@ -1890,6 +1891,15 @@ body {
   z-index: 1;
 }
 
+@media (min-width: 1200px) {
+  .c-managers__wrapper:after {
+    content: url("../../assets/icons/blue-dots-long.svg");
+    position: absolute;
+    top: 128%;
+    left: 6%;
+  }
+}
+
 .c-managers__image {
   margin-top: 13%;
 }
@@ -1919,6 +1929,10 @@ body {
 
 .c-teachers__teacher {
   margin-bottom: 12%;
+}
+
+.c-teachers__teacher--desktop {
+  display: none;
 }
 
 .c-teacher__name {
@@ -1971,4 +1985,119 @@ body {
   margin-top: 4%;
   margin-bottom: 19%;
   padding: 4% 38.5%;
+}
+
+@media (min-width: 1200px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: 76px 1fr 280px;
+  }
+  .header {
+    grid-row: 1 / 2;
+  }
+  .main {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-rows: 260px 96px 400px 154px 1fr 130px 410px;
+  }
+  .main .c-trainers {
+    grid-row: 1 / 2;
+  }
+  .main .c-trainers__title {
+    margin: 0 0 2% 0;
+    padding: 0;
+    font-weight: 600;
+  }
+  .main .c-trainers__text {
+    width: 850px;
+    text-align: center;
+    padding: 0;
+  }
+  .main .c-managers {
+    grid-row: 3 / 4;
+  }
+  .main .c-managers .container-column-centered {
+    width: auto;
+    align-items: flex-start;
+  }
+  .main .c-managers__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .main .c-managers__wrapper__manager {
+    display: flex;
+    flex-flow: row;
+  }
+  .main .c-managers__name {
+    margin: 0 0 1.5% 0;
+  }
+  .main .c-managers__details {
+    padding: 0;
+    width: 410px;
+  }
+  .main .c-managers__role {
+    margin: 0 0 4% 0;
+  }
+  .main .c-managers__image {
+    margin: 0 4.5% 0 0;
+    align-self: flex-start;
+  }
+  .main .c-teachers {
+    grid-row: 5 / 6;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-row-gap: 65px;
+  }
+  .main .c-teachers .container-column-centered {
+    width: auto;
+    align-items: center;
+  }
+  .main .c-teachers__teacher {
+    margin: 0;
+  }
+  .main .c-teachers__teacher--desktop {
+    display: flex;
+  }
+  .main .c-teachers .c-teacher__name {
+    margin: 0;
+  }
+  .main .c-become-a-part {
+    grid-row: 7 / 8;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 120px 60px 140px;
+  }
+  .main .c-become-a-part__title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    align-self: flex-end;
+    justify-self: center;
+  }
+  .main .c-become-a-part__text {
+    margin: 0;
+    width: 850px;
+    text-align: center;
+    align-self: flex-end;
+  }
+  .main .c-become-a-part__input {
+    padding: 16px;
+    margin: 0;
+  }
+  .main .c-become-a-part__button {
+    margin: 0;
+    padding: 14px 32px;
+    width: 140px;
+  }
+  .main .c-become-a-part__input-fields-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 32px;
+  }
+  footer {
+    grid-row: 3;
+  }
 }

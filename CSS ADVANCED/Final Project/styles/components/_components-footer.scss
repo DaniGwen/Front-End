@@ -10,11 +10,11 @@
 
     @include for-phone-only {
         margin-top: 20%;
+    }
 
-        // for trainers.html
-        &--trainers {
-            margin: 0;
-        }
+     // for trainers.html
+     &--trainers {
+        margin: 0;
     }
 }
 
@@ -44,7 +44,7 @@
     }
 
     &__mask {
-        @include position(absolute, -42%, 6%);
+        @include position(absolute, -129px, 6%);
         display: none;
 
         img {

@@ -9,6 +9,11 @@
             content: url("../../assets/icons/blue-dots.svg");
             @include position(absolute, 103.9%, 5.1%);
             z-index: 1;
+
+            @include for-desktop-up {
+                content: url("../../assets/icons/blue-dots-long.svg");
+                @include position(absolute, 128%, 6%);
+            }
         }
     }
 
