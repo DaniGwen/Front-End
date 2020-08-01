@@ -1,111 +1,95 @@
-<svg width="1630" height="10" viewBox="0 0 1630 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1439" height="10" viewBox="0 0 1439 10" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i)">
-<circle cx="1445" cy="5" r="5" fill="white"/>
-<circle cx="1463" cy="5" r="5" fill="white"/>
-<circle cx="1481" cy="5" r="5" fill="white"/>
-<circle cx="1499" cy="5" r="5" fill="white"/>
-<circle cx="5" cy="5" r="5" fill="white"/>
-<circle cx="185" cy="5" r="5" fill="white"/>
-<circle cx="365" cy="5" r="5" fill="white"/>
-<circle cx="545" cy="5" r="5" fill="white"/>
-<circle cx="725" cy="5" r="5" fill="white"/>
-<circle cx="905" cy="5" r="5" fill="white"/>
-<circle cx="1085" cy="5" r="5" fill="white"/>
-<circle cx="1265" cy="5" r="5" fill="white"/>
-<circle cx="23" cy="5" r="5" fill="white"/>
-<circle cx="203" cy="5" r="5" fill="white"/>
-<circle cx="383" cy="5" r="5" fill="white"/>
-<circle cx="563" cy="5" r="5" fill="white"/>
-<circle cx="743" cy="5" r="5" fill="white"/>
-<circle cx="923" cy="5" r="5" fill="white"/>
-<circle cx="1103" cy="5" r="5" fill="white"/>
-<circle cx="1283" cy="5" r="5" fill="white"/>
-<circle cx="41" cy="5" r="5" fill="white"/>
-<circle cx="221" cy="5" r="5" fill="white"/>
-<circle cx="401" cy="5" r="5" fill="white"/>
-<circle cx="581" cy="5" r="5" fill="white"/>
-<circle cx="761" cy="5" r="5" fill="white"/>
-<circle cx="941" cy="5" r="5" fill="white"/>
-<circle cx="1121" cy="5" r="5" fill="white"/>
-<circle cx="1301" cy="5" r="5" fill="white"/>
-<circle cx="59" cy="5" r="5" fill="white"/>
-<circle cx="239" cy="5" r="5" fill="white"/>
-<circle cx="419" cy="5" r="5" fill="white"/>
-<circle cx="599" cy="5" r="5" fill="white"/>
-<circle cx="779" cy="5" r="5" fill="white"/>
-<circle cx="959" cy="5" r="5" fill="white"/>
-<circle cx="1139" cy="5" r="5" fill="white"/>
-<circle cx="1319" cy="5" r="5" fill="white"/>
-<circle cx="77" cy="5" r="5" fill="white"/>
-<circle cx="257" cy="5" r="5" fill="white"/>
-<circle cx="437" cy="5" r="5" fill="white"/>
-<circle cx="617" cy="5" r="5" fill="white"/>
-<circle cx="797" cy="5" r="5" fill="white"/>
-<circle cx="977" cy="5" r="5" fill="white"/>
-<circle cx="1157" cy="5" r="5" fill="white"/>
-<circle cx="1337" cy="5" r="5" fill="white"/>
-<circle cx="95" cy="5" r="5" fill="white"/>
-<circle cx="275" cy="5" r="5" fill="white"/>
-<circle cx="455" cy="5" r="5" fill="white"/>
-<circle cx="635" cy="5" r="5" fill="white"/>
-<circle cx="815" cy="5" r="5" fill="white"/>
-<circle cx="995" cy="5" r="5" fill="white"/>
-<circle cx="1175" cy="5" r="5" fill="white"/>
-<circle cx="1355" cy="5" r="5" fill="white"/>
-<circle cx="113" cy="5" r="5" fill="white"/>
-<circle cx="293" cy="5" r="5" fill="white"/>
-<circle cx="473" cy="5" r="5" fill="white"/>
-<circle cx="653" cy="5" r="5" fill="white"/>
-<circle cx="833" cy="5" r="5" fill="white"/>
-<circle cx="1013" cy="5" r="5" fill="white"/>
-<circle cx="1193" cy="5" r="5" fill="white"/>
-<circle cx="1373" cy="5" r="5" fill="white"/>
-<circle cx="131" cy="5" r="5" fill="white"/>
-<circle cx="311" cy="5" r="5" fill="white"/>
-<circle cx="491" cy="5" r="5" fill="white"/>
-<circle cx="671" cy="5" r="5" fill="white"/>
-<circle cx="851" cy="5" r="5" fill="white"/>
-<circle cx="1031" cy="5" r="5" fill="white"/>
-<circle cx="1211" cy="5" r="5" fill="white"/>
-<circle cx="1391" cy="5" r="5" fill="white"/>
-<circle cx="149" cy="5" r="5" fill="white"/>
-<circle cx="329" cy="5" r="5" fill="white"/>
-<circle cx="509" cy="5" r="5" fill="white"/>
-<circle cx="689" cy="5" r="5" fill="white"/>
-<circle cx="869" cy="5" r="5" fill="white"/>
-<circle cx="1049" cy="5" r="5" fill="white"/>
-<circle cx="1229" cy="5" r="5" fill="white"/>
-<circle cx="1409" cy="5" r="5" fill="white"/>
-<circle cx="167" cy="5" r="5" fill="white"/>
-<circle cx="347" cy="5" r="5" fill="white"/>
-<circle cx="527" cy="5" r="5" fill="white"/>
-<circle cx="707" cy="5" r="5" fill="white"/>
-<circle cx="887" cy="5" r="5" fill="white"/>
-<circle cx="1067" cy="5" r="5" fill="white"/>
-<circle cx="1247" cy="5" r="5" fill="white"/>
-<circle cx="1517" cy="5" r="5" fill="white"/>
-<circle cx="1427" cy="5" r="5" fill="white"/>
-</g>
 <g filter="url(#filter1_i)">
-<circle cx="1535" cy="5" r="5" fill="white"/>
+<ellipse cx="1366.2" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="1383.22" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1400.24" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1417.25" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="4.72733" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="174.911" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="345.095" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="515.279" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="685.463" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="855.647" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1025.83" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1196.02" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="21.7457" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="191.93" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="362.114" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="532.298" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="702.482" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="872.666" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="1042.85" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1213.03" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="38.7641" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="208.948" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="379.132" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="549.316" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="719.5" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="889.684" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1059.87" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="1230.05" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="55.7825" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="225.966" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="396.15" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="566.334" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="736.518" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="906.702" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1076.89" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1247.07" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="72.8009" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="242.985" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="413.169" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="583.353" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="753.537" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="923.721" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="1093.9" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1264.09" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="89.8193" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="260.003" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="430.187" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="600.371" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="770.555" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="940.739" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1110.92" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="1281.11" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="106.838" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="277.022" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="447.206" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="617.39" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="787.574" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="957.758" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1127.94" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1298.13" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="123.856" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="294.04" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="464.224" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="634.408" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="804.592" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="974.776" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1144.96" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1315.14" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="140.875" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="311.058" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="481.242" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="651.426" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="821.61" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="991.794" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1161.98" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1332.16" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="157.893" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="328.077" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="498.261" cy="5" rx="4.72734" ry="5" fill="white"/>
+<ellipse cx="668.445" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="838.629" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1008.81" cy="5" rx="4.72733" ry="5" fill="white"/>
+<ellipse cx="1179" cy="5" rx="4.72736" ry="5" fill="white"/>
+<ellipse cx="1434.27" cy="5" rx="4.72729" ry="5" fill="white"/>
+<ellipse cx="1349.18" cy="5" rx="4.72736" ry="5" fill="white"/>
 </g>
-<g filter="url(#filter2_i)">
-<circle cx="1553" cy="5" r="5" fill="white"/>
-</g>
-<g filter="url(#filter3_i)">
-<circle cx="1571" cy="5" r="5" fill="white"/>
-</g>
-<g filter="url(#filter4_i)">
-<circle cx="1589" cy="5" r="5" fill="white"/>
-</g>
-<g filter="url(#filter5_i)">
-<circle cx="1607" cy="5" r="5" fill="white"/>
-</g>
-<g filter="url(#filter6_i)">
-<circle cx="1625" cy="5" r="5" fill="white"/>
 </g>
 <defs>
-<filter id="filter0_i" x="0" y="0" width="1522" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i" x="0" y="0" width="1439" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
@@ -115,57 +99,7 @@
 <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
 <feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
 </filter>
-<filter id="filter1_i" x="1530" y="0" width="10" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
-</filter>
-<filter id="filter2_i" x="1548" y="0" width="10" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
-</filter>
-<filter id="filter3_i" x="1566" y="0" width="10" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
-</filter>
-<filter id="filter4_i" x="1584" y="0" width="10" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
-</filter>
-<filter id="filter5_i" x="1602" y="0" width="10" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="1"/>
-<feGaussianBlur stdDeviation="1"/>
-<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
-<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
-</filter>
-<filter id="filter6_i" x="1620" y="0" width="10" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter1_i" x="0" y="0" width="1439" height="11" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>

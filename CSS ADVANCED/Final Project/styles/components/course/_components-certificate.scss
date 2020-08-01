@@ -7,7 +7,7 @@
         
         &:before {
             content: url("../../../assets/icons/reward\ 1.svg");
-            @include position(absolute, 40%, -2%);
+            @include position(absolute, 40%, -1.5%);
         }
     }
 }

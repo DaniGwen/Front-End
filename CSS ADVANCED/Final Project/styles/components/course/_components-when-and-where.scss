@@ -7,7 +7,11 @@
 
         @include for-desktop-up {
             content: url("../../../assets/icons/yellow-vertical-elipses-long.svg");
-            @include position(absolute, 0%, 120%);
+            @include position(absolute, 0%, 105%);
+
+            @media screen and (min-width: 1467px) {
+                @include position(absolute, 0%, 120%);
+              }
         }
     }
 

@@ -11,17 +11,21 @@
     box-shadow: $Shadow1dp;
 
     @include for-desktop-up {
-        height: 560px;
+       height: 560px;
     }
 
-    // Dots image
+    // Dots image start section
     &:before {
         content: url("../../assets/icons/yellow section.svg");
         @include position(absolute, -9px, 0%);
 
         @include for-desktop-up {
             content: url("../../../assets/icons/course-path-desktop.svg");
-            @include position(absolute, -10px, 1.2%);
+            @include position(absolute, -10px, 0);
+
+            @media screen and (min-width: 1467px) {
+                @include position(absolute, -10px, 6%);
+              }
         }
     }
 
@@ -32,7 +36,11 @@
 
         @include for-desktop-up {
             content: url("../../../assets/icons/course-path-desktop-shadow.svg");
-            @include position(absolute, 554px, 1.5%);
+            @include position(absolute, 552px, 0);
+
+            @media screen and (min-width: 1467px) {
+                @include position(absolute, 552px, 6%);
+              }
         }
     }
 
@@ -46,7 +54,7 @@
             @include position(absolute, 5%, 5%);
 
             @include for-desktop-up {
-                @include position(absolute, 7%, -10%);
+                @include position(absolute, 7%, -7%);
             }
         }
     }

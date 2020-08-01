@@ -11,7 +11,7 @@
             @include position(absolute, 3%, -16%);
 
             @include for-desktop-up{
-                @include position(absolute, 3%, -12%);
+                @include position(absolute, 3%, -10%);
             }
         }
     }
