@@ -19,4 +19,10 @@
         background: $Secondary800;
         color: $White;
     }
+
+    &--inverted {
+        background-color: $White;
+        color: $Secondary800;
+        border: 1px solid $Secondary800;
+    }
 }

@@ -1,0 +1,60 @@
+@import "../../settings/_settings-shadows.scss";
+
+.c-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 110px 1fr;
+    width: 519px;
+    height: 382px;
+    border-radius: 12px;
+    box-shadow: $Shadow1dp;
+
+    &__address {
+        width: 205px;
+        justify-self: center;
+    }
+
+    &__workhours {
+        width: 215px;
+        display: grid;
+        grid-template-rows: 1fr 60px 60px;
+    }
+
+    &__article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    &__contacts {
+        width: 215px;
+        align-self: flex-end;
+        justify-self: center;
+    }
+
+    &__heading {
+        color: $Primary300;
+        margin-bottom: 20px;
+    }
+    &__text {
+        width: 105px;
+        display: inline-block;
+        align-self: flex-start;
+    }
+    &__span {
+        color: $Secondary800;
+        align-self: flex-start;
+        margin-top: 3px;
+    }
+
+    &__button {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 800;
+        box-shadow: none;
+
+        grid-row: 3;
+        grid-column: 1/3;
+        align-self: center;
+        justify-self: center;
+    }
+}

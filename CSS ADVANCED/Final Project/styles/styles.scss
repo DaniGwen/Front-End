@@ -1,6 +1,5 @@
 @import "./generic/_generic-normalize.scss";
 
-@import "./settings/_settings-typography.scss";
 @import "./settings/_settings-mixins.scss";
 @import "./settings/_settings-colors.scss";
 @import "./settings/_settings-shadows.scss";
@@ -12,6 +11,7 @@
 @import "./elements/_elements-paragraphs.scss";
 @import "./elements/_elements-lists.scss";
 @import "./elements/_elements-body.scss";
+@import "./elements/_elements-typography.scss";
 
 @import "./utilities/_utilities-property-constants.scss";
 @import "./utilities/_utilities-centered.scss";
@@ -44,3 +44,10 @@
 @import "./components/trainers/_components-teachers.scss";
 @import "./components/trainers/_components-become-a-part.scss";
 @import "./components/trainers/_components-main-grid.scss";
+
+// Components for contact-us
+@import "./components/contact-us/_components-map.scss";
+@import "./components/contact-us/_components-contact-us-main-grid.scss";
+@import "./components/contact-us/_components-contact-us-card.scss";
+@import "./components/contact-us/_components-write-us.scss";
+@import "./components/contact-us/_components-directions.scss";

@@ -1,0 +1,38 @@
+.c-directions {
+    background-color: $Secondary50;
+
+    &__header {
+        text-align: center;
+        color: $Primary300;
+        //width: 300px;
+    }
+
+    &__info-article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 432px;
+        align-items: flex-start;
+        justify-items: center;
+    }
+
+    &__title {
+        color: $Primary300;
+    }
+
+    &__paragraph {
+        padding-bottom: 16px;
+        width: 403px;
+    }
+
+    &__span {
+        font-weight: bold;
+    }
+
+    &__metro {
+        padding-left: 70px;
+    }
+
+    &__route-taxi {
+        padding-left: 50px;
+    }
+}
