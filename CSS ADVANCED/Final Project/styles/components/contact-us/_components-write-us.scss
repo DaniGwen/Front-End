@@ -3,6 +3,7 @@
     grid-template-rows: 40px 1fr;
     grid-gap: 32px;
     width: 850px;
+    justify-self: center;
 
     &__input-section {
         display: grid;
@@ -16,6 +17,8 @@
         justify-self: center;
         align-self: flex-end;
         margin: 0;
+        color: $Primary300;
+        font-weight: 600;
     }
 
     &__input {
@@ -37,7 +40,7 @@
         grid-column: 1 / 3;
         padding-bottom: 150px;
     }
-    
+
     &__button {
         grid-row: 3;
         align-self: flex-start;

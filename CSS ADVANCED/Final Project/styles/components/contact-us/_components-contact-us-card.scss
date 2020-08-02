@@ -8,6 +8,7 @@
     height: 382px;
     border-radius: 12px;
     box-shadow: $Shadow1dp;
+    background-color: $White;
 
     &__address {
         width: 205px;
@@ -35,11 +36,17 @@
         color: $Primary300;
         margin-bottom: 20px;
     }
+
     &__text {
         width: 105px;
         display: inline-block;
         align-self: flex-start;
     }
+
+    &__contacts__text {
+        padding-bottom: 12px;
+    }
+    
     &__span {
         color: $Secondary800;
         align-self: flex-start;
