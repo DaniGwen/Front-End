@@ -14,23 +14,21 @@
     align-items: center;
 }
 
-
-
 @include for-desktop-up {
-    .o-container-width-1290 {
-        width: 86%;
-        margin-left: 7.5%;
+    .o-page-wrapper {
+        width: 1290px;
+        margin: auto;
     }
 
-    .o-box-1300{
+    .o-box-1300 {
         width: 86%;
         justify-self: center;
     }
-    
+
     .o-container-flex {
         display: flex;
 
-        &--for-who{
+        &--for-who {
             margin-top: 2%;
         }
     }

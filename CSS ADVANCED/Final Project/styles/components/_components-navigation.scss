@@ -4,43 +4,34 @@
 @import "../settings/_settings-mixins";
 
 // Desktop first
-.navbar {
-    &__wrapper {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        box-shadow: $Shadow2dp;
+.c-main-navbar {
+    display: grid;
+    grid-template-rows: 74px;
+    grid-template-columns: max-content 1fr max-content;
+    grid-column-gap: 32px;
+    align-items: center;
+    position: relative;
 
-        @include for-phone-only {
-            height: 70px;
-            width: 100%;
+    @include for-phone-only {
+        grid-column-gap: 0;
 
-            // Hide links and display small menu icon
-            &:before {
-                content: url("../../assets/icons/menu.svg");
-                @include position(absolute, 40%, 88%);
-            }
+        // display small menu icon
+        &:before {
+            content: url("../../assets/icons/menu.svg");
+            @include position(absolute, 40%, 88%);
         }
     }
 
-    &__logo {
+    &__logo-and-arrow {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: 16px;
+        align-self: center;
         position: relative;
 
-        @include for-desktop-up {
-            margin-left: 9%;
-
-            &:before {
-                content: url("../../assets/icons/arrow-right-yellow.svg");
-                @include position(absolute, 20%, -29%);
-            }
-        }
-        
         @include for-phone-only {
-            // Hides desktop logo
-            img {
-                display: none;
-            }
+            margin-left: 20px;
+
             // Shows arrow before the logo
             &:before {
                 content: url("../../assets/icons/Arrow-right.svg");
@@ -51,14 +42,30 @@
             &:after {
                 content: url("../../assets/icons/logo-vertical.svg");
 
-                @include position(absolute, -26px, 45px);
+                @include position(absolute, -27px, 45px);
             }
         }
     }
 
+    &__logo {
+        @include for-phone-only {
+            // Hides desktop logo
+            display: none;
+        }
+    }
+
+    &__arrow {
+        @include for-phone-only {
+            // Hides desktop arrow
+            display: none;
+        }
+    }
+
     &__items {
-        display: flex;
-        margin-left: 30%;
+        display: grid;
+        grid-template-columns: max-content max-content max-content max-content max-content;
+        grid-column-gap: 48px;
+        justify-content: right;
 
         @include for-phone-only {
             display: none;
@@ -69,24 +76,17 @@
                 margin: 0;
             }
         }
-
-        @include for-desktop-up {
-            margin-left: 30%;
-        }
-
         @include anything-before-desktop {
             padding: 0;
             flex-flow: row wrap;
         }
     }
-    &__item {
-        list-style: none;
-        margin: 2% 17px;
 
+    &__item {
         a {
-            text-decoration: none;
             text-transform: uppercase;
             color: $Grey700;
+            transition: color 0.4s ease-out;
 
             &:hover {
                 cursor: pointer;
@@ -95,15 +95,23 @@
         }
     }
 
+    &__button-and-search {
+        display: grid;
+        grid-template-columns: max-content max-content;
+        grid-column-gap: 32px;
+    }
+
+    &__search {
+        @include for-phone-only {
+            display: none;
+        }
+    }
+
     &__button {
         @include for-phone-only {
             font-size: 13px;
             line-height: 16px;
-            margin-right: 16%;
-        }
-
-        @include for-desktop-up {
-            margin-right: 8%;
+            margin-right: 30px;
         }
     }
 }

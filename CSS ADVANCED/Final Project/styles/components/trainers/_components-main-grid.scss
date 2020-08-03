@@ -127,12 +127,7 @@
             &__input {
                 padding: 16px;
                 margin: 0;
-                background-color: $Blue300;
-                border: 1px solid $White;
-
-                &::placeholder{
-                    color: $White;
-                }
+               
             }
 
             &__button {

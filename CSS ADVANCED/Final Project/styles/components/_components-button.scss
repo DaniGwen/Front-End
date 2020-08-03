@@ -31,3 +31,15 @@
         border: 1px solid $Secondary800;
     }
 }
+
+.simple-button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
