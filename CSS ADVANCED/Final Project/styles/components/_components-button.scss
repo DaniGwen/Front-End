@@ -9,10 +9,15 @@
     line-height: 20px;
     font-style: normal;
     font-weight: 800;
+    animation-name: scale-and-skew-out;
+    animation-duration: 0.2s;
 
     &:hover {
         cursor: pointer;
         box-shadow: $Shadow1dp;
+        animation-name: scale-and-skew;
+        animation-duration: 0.2s;
+        animation-fill-mode: forwards;
     }
 
     &--secondary {

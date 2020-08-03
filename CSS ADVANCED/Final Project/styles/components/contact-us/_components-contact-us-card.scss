@@ -9,6 +9,12 @@
     border-radius: 12px;
     box-shadow: $Shadow1dp;
     background-color: $White;
+    transition: box-shadow 0.5s ease-out;
+
+    &:hover {
+        transition: box-shadow 0.5s ease-out;
+        box-shadow: $Custom;
+    }
 
     &__address {
         width: 205px;
@@ -46,7 +52,7 @@
     &__contacts__text {
         padding-bottom: 12px;
     }
-    
+
     &__span {
         color: $Secondary800;
         align-self: flex-start;

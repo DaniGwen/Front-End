@@ -404,6 +404,24 @@ h5 {
   display: none;
 }
 
+@keyframes scale-and-skew {
+  from {
+    transform: scale(1) skew(0deg);
+  }
+  to {
+    transform: scale(1.1) skew(8deg);
+  }
+}
+
+@keyframes scale-and-skew-out {
+  from {
+    transform: scale(1.1) skew(8deg);
+  }
+  to {
+    transform: scale(1) skew(0deg);
+  }
+}
+
 .header {
   position: relative;
 }
@@ -570,11 +588,16 @@ h5 {
   line-height: 20px;
   font-style: normal;
   font-weight: 800;
+  animation-name: scale-and-skew-out;
+  animation-duration: 0.2s;
 }
 
 .btn:hover {
   cursor: pointer;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+  animation-name: scale-and-skew;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
 }
 
 .btn--secondary {
@@ -2124,14 +2147,22 @@ h5 {
     width: auto;
     align-items: center;
   }
+  .trainers-main .c-teachers__image-wrapper {
+    position: relative;
+  }
+  .trainers-main .c-teachers__image-wrapper:hover:before {
+    content: url(../../../assets/icons/I-icon.svg);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+  }
   .trainers-main .c-teachers__teacher {
     margin: 0;
   }
   .trainers-main .c-teachers__teacher--desktop {
     display: flex;
-  }
-  .trainers-main .c-teachers .c-teacher__name {
-    margin: 0;
   }
   .trainers-main .c-become-a-part {
     grid-row: 7 / 8;
@@ -2152,15 +2183,22 @@ h5 {
     width: 850px;
     text-align: center;
     align-self: flex-end;
+    justify-self: center;
   }
   .trainers-main .c-become-a-part__input {
     padding: 16px;
     margin: 0;
+    background-color: #66b9f8;
+    border: 1px solid #ffffff;
+  }
+  .trainers-main .c-become-a-part__input::placeholder {
+    color: #ffffff;
   }
   .trainers-main .c-become-a-part__button {
     margin: 0;
     padding: 14px 32px;
     width: 140px;
+    margin-left: 15px;
   }
   .trainers-main .c-become-a-part__input-fields-wrapper {
     display: grid;
@@ -2230,6 +2268,12 @@ footer {
   border-radius: 12px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+  transition: box-shadow 0.5s ease-out;
+}
+
+.c-card:hover {
+  transition: box-shadow 0.5s ease-out;
+  box-shadow: 21px 31px 56px -31px rgba(0, 0, 0, 0.75);
 }
 
 .c-card__address {

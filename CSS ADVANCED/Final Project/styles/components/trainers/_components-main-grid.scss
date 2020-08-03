@@ -81,16 +81,23 @@
                 align-items: center;
             }
 
+            &__image-wrapper {
+                position: relative;
+
+                &:hover:before {
+                    content: url(../../../assets/icons/I-icon.svg);
+                    border-radius: 50%;
+                    @include position(absolute, 0, 0);
+                    cursor: pointer;
+                }
+            }
+
             &__teacher {
                 margin: 0;
             }
 
             &__teacher--desktop {
                 display: flex;
-            }
-
-            .c-teacher__name {
-                margin: 0;
             }
         }
 
@@ -108,22 +115,33 @@
                 align-self: flex-end;
                 justify-self: center;
             }
+
             &__text {
                 margin: 0;
                 width: 850px;
                 text-align: center;
                 align-self: flex-end;
+                justify-self: center;
             }
+
             &__input {
                 padding: 16px;
                 margin: 0;
+                background-color: $Blue300;
+                border: 1px solid $White;
+
+                &::placeholder{
+                    color: $White;
+                }
             }
 
             &__button {
                 margin: 0;
                 padding: 14px 32px;
                 width: 140px;
+                margin-left: 15px;
             }
+
             &__input-fields-wrapper {
                 display: grid;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
