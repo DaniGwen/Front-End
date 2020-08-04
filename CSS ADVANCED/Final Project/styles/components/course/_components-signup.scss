@@ -11,12 +11,16 @@
     z-index: 1;
 
     @include for-desktop-up {
-        @include position(absolute, 39%, 6%);
+        @include position(absolute, 39%, 5.5%);
         display: flex;
         margin: 0;
         padding: 0;
-        width: 87%;
         height: 115px;
+        width: 1290px;
+    }
+
+    @include for-1500-up{
+        left: 12%;
     }
 
     &__button__wrapper {

@@ -9,10 +9,6 @@
         &:after {
             content: url("../../assets/icons/dots-yellow-vertical.svg");
             @include position(absolute, 0%, 120%);
-
-            @media screen and (min-width: 1467px) {
-                @include position(absolute, 0%, 140%);
-            }
         }
     }
 
@@ -26,11 +22,9 @@
         &:before {
             content: url(../../assets/icons/people.svg);
             @include position(absolute, 10%, -30%);
-            transform: scale(1.2);
 
             @include for-desktop-up {
                 @include position(absolute, 10%, -13%);
-                transform: scale(1.1);
             }
         }
     }

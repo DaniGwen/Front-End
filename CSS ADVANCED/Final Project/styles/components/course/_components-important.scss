@@ -14,7 +14,7 @@
 
             &:before {
                 content: url(/assets/icons/puzzle.svg);
-                @include position(absolute, -19%, -12%);
+                @include position(absolute, 0%, -12%);
             }
         }
     }

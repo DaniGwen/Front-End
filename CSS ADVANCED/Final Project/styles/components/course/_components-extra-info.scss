@@ -1,6 +1,6 @@
 @import "../../settings/_settings-colors";
 
-.c-extra-info {
+.main__c-extra-info {
     &__title {
         margin: 18% 0 5% 18%;
         position: relative;
@@ -11,7 +11,7 @@
             @include position(absolute, 3%, -16%);
 
             @include for-desktop-up{
-                @include position(absolute, 3%, -10%);
+                @include position(absolute, 3%, -12%);
             }
         }
     }
