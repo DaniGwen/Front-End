@@ -12,7 +12,7 @@
 
             @include for-desktop-up {
                 content: url("../../assets/icons/blue-dots-long.svg");
-                @include position(absolute, 128%, 6%);
+                @include position(absolute, 128%, 5px);
             }
         }
     }

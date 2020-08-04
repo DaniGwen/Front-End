@@ -26,7 +26,7 @@
 
         &:before {
             content: url(/assets/icons/bell.svg);
-            @include position(absolute, 0, 8%);
+            @include position(absolute, 0, 20px);
         }
 
         @include for-desktop-up {

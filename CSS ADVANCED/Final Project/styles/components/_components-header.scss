@@ -5,37 +5,36 @@
     position: relative;
     box-shadow: $Shadow2dp;
     z-index: 1;
-}
 
-.header__info {
-    background: $Blue400;
-    color: $White;
-    padding: 15% 10%;
-    text-align: -webkit-center;
-    align-items: center;
-
-    @include for-desktop-up {
-        height: 302px;
-        padding: 64px 34%;
-    }
-
-    &__novice {
+    &__info {
+        background: $Blue400;
         color: $White;
-        background-color: $Secondary500;
+        padding: 15% 10%;
+        text-align: -webkit-center;
         align-items: center;
-        text-align: center;
-        font-size: 12px;
-        line-height: 14px;
-        font-style: normal;
-        font-weight: bold;
-        width: 30%;
-        padding: 4px 8px;
-        border-radius: 4px;
-        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 2px 1px -1px rgba(0, 0, 0, 0.12), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
 
         @include for-desktop-up {
+            height: 302px;
+            padding: 64px 0 0;
+        }
+
+        &__novice {
+            color: $White;
+            background-color: $Secondary500;
+            font-size: 12px;
+            line-height: 14px;
+            font-style: normal;
+            font-weight: bold;
             width: 90px;
-            height: 22px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            box-shadow: $Shadow1dp;
+        }
+
+        &__title {
+            @include for-desktop-up {
+                width: 550px;
+            }
         }
     }
 }
