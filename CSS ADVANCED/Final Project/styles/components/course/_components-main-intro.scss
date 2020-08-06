@@ -1,8 +1,12 @@
 @import "../../settings/_settings-colors.scss";
-@import "../../settings/settings-mixins";
+@import "../../settings/_settings-mixins.scss";
 
 .main-intro {
     margin-top: 142%;
+
+    @include between-600-and-1200 {
+        margin-top: 700px;
+    }
 
     &__text {
         align-items: center;
@@ -14,12 +18,20 @@
         position: relative;
         padding: 0 5%;
 
-        &:after {
-            content: url(../../assets/icons/play_alternative.svg);
-            @include position(absolute, 35%, 42%);
+        @include between-600-and-1200 {
+            text-align: center;
+            transform: scale(1.2);
+        }
+
+        &__icon {
+            @include position(absolute, 65px, 160px);
 
             @include for-desktop-up {
-                @include position(absolute, 33%, 40%);
+                @include position(absolute, 33%, 42%);
+            }
+
+            @include between-600-and-1200{
+                @include position(absolute, 65px, 46%);
             }
         }
     }

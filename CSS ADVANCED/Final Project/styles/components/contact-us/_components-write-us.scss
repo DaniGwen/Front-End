@@ -4,6 +4,10 @@
     grid-gap: 32px;
     width: 850px;
     justify-self: center;
+    
+    @include from-1000-down{
+       margin-bottom: 20px;
+    }
 
     &__input-section {
         display: grid;

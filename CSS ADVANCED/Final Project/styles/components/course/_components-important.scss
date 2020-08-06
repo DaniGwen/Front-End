@@ -4,6 +4,10 @@
 .c-important {
     position: relative;
 
+    @include between-600-and-1200{
+      text-align: center;
+    }
+
     &__title--desktop {
         display: none;
 
@@ -27,16 +31,28 @@
         &:before {
             content: url(/assets/icons/bell.svg);
             @include position(absolute, 0, 20px);
+
+            @include between-600-and-1200{
+                @include position(absolute, 0, 37%);
+            }
         }
 
         @include for-desktop-up {
             display: none;
+        }
+
+        @include between-600-and-1200{
+            margin: 0 0 10px 0;
         }
     }
 
     &__text {
         padding: 0 5%;
         margin-bottom: 8%;
+
+        @include between-600-and-1200{
+            margin-bottom: 20px;
+        }
 
         & span {
             font-weight: bold;

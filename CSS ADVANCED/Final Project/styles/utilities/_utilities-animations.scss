@@ -1,3 +1,4 @@
+// Used in buttons
 @keyframes scale-and-skew {
     from {
         transform: scale(1) skew(0deg);
@@ -7,11 +8,63 @@
     }
 }
 
+// Used in buttons
 @keyframes scale-and-skew-out {
     from {
         transform: scale(1.1) skew(8deg);
     }
     to {
         transform: scale(1) skew(0deg);
+    }
+}
+
+// Used in zone elements
+@keyframes revial {
+    from {
+        transform: scaleX(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleX(1);
+        opacity: 1;
+    }
+}
+
+// Create zone - element and set animation
+@for $i from 1 through 10 {
+    .zone-#{$i} {
+        opacity: 0;
+        animation: 0.4s revial forwards;
+        animation-delay: 0.1s * $i;
+    }
+}
+
+// Used in navbar
+// Create letter index and animate
+.c-main-navbar__item {
+    @for $index from 1 through 20 {
+        &:hover {
+            .letter-#{$index} {
+                transition-delay: (0.03s * $index);
+                color: $Secondary800;
+            }
+        }
+    }
+}
+
+// Used in card-like elements
+.shadow-transition {
+    transition: box-shadow 0.5s ease-out;
+    &:hover {
+        box-shadow: $Custom;
+    }
+}
+
+// Used in arrows
+.scale-element {
+    transition: transform 0.1s ease-out;
+
+    &:hover {
+        transform: scale(1.4);
     }
 }

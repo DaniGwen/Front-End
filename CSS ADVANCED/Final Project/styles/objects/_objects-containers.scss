@@ -1,9 +1,5 @@
 @import "../settings/settings-breakpoints";
-.container {
-    max-width: 1250px;
-    width: 100%;
-    margin: 0 auto;
-}
+
 
 .container-column-centered {
     width: 100%;
@@ -19,11 +15,10 @@
         width: 1290px;
         margin: auto;
         justify-self: center;
-    }
 
-    .o-box-1300 {
-        width: 86%;
-        justify-self: center;
+        @include between-600-and-1200{
+            width: auto;
+        }
     }
 
     .o-container-flex {

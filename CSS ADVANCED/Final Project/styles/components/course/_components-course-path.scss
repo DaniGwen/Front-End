@@ -11,7 +11,10 @@
     box-shadow: $Shadow1dp;
 
     @include for-desktop-up {
-       height: 560px;
+        height: 560px;
+    }
+    @include between-600-and-1200 {
+        text-align: center;
     }
 
     // Dots image start section
@@ -25,7 +28,10 @@
 
             @media screen and (min-width: 1467px) {
                 @include position(absolute, -10px, 6%);
-              }
+            }
+        }
+        @include between-600-and-1200 {
+            @include position(absolute, -10px, 30%);
         }
     }
 
@@ -40,7 +46,11 @@
 
             @media screen and (min-width: 1467px) {
                 @include position(absolute, 552px, 6%);
-              }
+            }
+        }
+
+        @include between-600-and-1200 {
+            @include position(absolute, 752px, 27%);
         }
     }
 
@@ -49,12 +59,20 @@
         padding-top: 10%;
         font-weight: 600;
 
+        @include between-600-and-1200 {
+            margin: 0 0 20px 0;
+        }
+
         &:before {
             content: url("../../assets/icons/book.svg");
             @include position(absolute, 5%, 5%);
 
             @include for-desktop-up {
                 @include position(absolute, 7%, -9%);
+            }
+
+            @include between-600-and-1200 {
+                display: none;
             }
         }
     }
@@ -66,6 +84,10 @@
     &__title-exercises {
         margin-right: 65%;
         margin-bottom: 15px;
+
+        @include between-600-and-1200 {
+            margin: 10px 0 20px 0;
+        }
     }
 
     &__input {
@@ -73,25 +95,20 @@
         width: 335px;
         border-radius: 6px;
         border: none;
+
+        padding: 2%;
         margin-bottom: 16px;
-        padding: 4% 10% 4% 4%;
         font-size: 18px;
         line-height: 22px;
         font-weight: bold;
-        position: relative;
-        display: flex;
 
-        & span {
-            margin-right: 2%;
-        }
+        display: grid;
+        grid-template-columns: 20px 1fr 20px;
+        grid-column-gap: 3px;
+        align-items: center;
 
-        &:after {
-            content: url("../../assets/icons/Arrow-down.svg");
-            @include position(absolute, 35%, 90%);
-
-            @include for-desktop-up {
-                @include position(absolute, 35%, 95%);
-            }
+        @include between-600-and-1200 {
+            width: 450px;
         }
     }
 

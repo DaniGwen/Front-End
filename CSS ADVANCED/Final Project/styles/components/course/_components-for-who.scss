@@ -12,11 +12,19 @@
         }
     }
 
+    @include between-600-and-1200{
+        text-align: center;
+    }
+
     &__title {
         position: relative;
         width: 50%;
         margin-right: 10%;
         font-weight: 600;
+
+        @include between-600-and-1200{
+            margin: 0 0 10px 0;
+        }
 
         // Icon on the left of the title
         &:before {
@@ -25,6 +33,9 @@
 
             @include for-desktop-up {
                 @include position(absolute, 10%, -13%);
+            }
+            @include between-600-and-1200{
+                @include position(absolute, 10%, 0);
             }
         }
     }

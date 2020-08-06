@@ -30,6 +30,13 @@
         color: $Secondary800;
         border: 1px solid $Secondary800;
     }
+
+    &--contact-us-card {
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 800;
+        box-shadow: none;
+    }
 }
 
 .simple-button {
@@ -40,6 +47,8 @@
     transition: transform 0.2s ease-out;
 
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.3);
+        background-color: $White - 10%;
+        border-radius: 50%;
     }
 }

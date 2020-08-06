@@ -19,6 +19,12 @@
     }
 }
 
+@mixin from-1000-down {
+    @media (max-width: 1000px) {
+        @content;
+    }
+}
+
 @mixin for-1500-up {
     @media (min-width: 1500px) {
         @content;
@@ -33,6 +39,12 @@
 
 @mixin anything-before-desktop {
     @media (max-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin between-600-and-1200 {
+    @media (min-width: 600px) and (max-width: 1200px) {
         @content;
     }
 }

@@ -13,6 +13,7 @@
 @import "./elements/_elements-body.scss";
 @import "./elements/_elements-typography.scss";
 
+@import "./utilities/_utilities-placeholders.scss";
 @import "./utilities/_utilities-property-constants.scss";
 @import "./utilities/_utilities-centered.scss";
 @import "./utilities/_utilities-hidden.scss";
@@ -22,7 +23,6 @@
 @import "./components/_components-header.scss";
 @import "./components/_components-navigation.scss";
 @import "./components/_components-button.scss";
-@import "./components/_components-card.scss";
 @import "./components/_components-footer.scss";
 
 // Components for courses page
@@ -36,7 +36,7 @@
 @import "./components/course/_components-course-path.scss";
 @import "./components/course/_components-when-and-where.scss";
 @import "./components/course/_components-extra-info.scss";
-@import "./components/course/_components-course-main-grid.scss";
+@import "./components/course/_components-course-main-desktop-grid.scss";
 @import "./components/course/_components-certificate.scss";
 
 // Components for trainers page
@@ -44,11 +44,11 @@
 @import "./components/trainers/_components-managers.scss";
 @import "./components/trainers/_components-teachers.scss";
 @import "./components/trainers/_components-become-a-part.scss";
-@import "./components/trainers/_components-main-grid.scss";
+@import "./components/trainers/_components-main-desktop-grid.scss";
 
 // Components for contact-us
 @import "./components/contact-us/_components-map.scss";
-@import "./components/contact-us/_components-contact-us-main-grid.scss";
+@import "./components/contact-us/_components-contact-us-main-desktop-grid.scss";
 @import "./components/contact-us/_components-contact-us-card.scss";
 @import "./components/contact-us/_components-write-us.scss";
 @import "./components/contact-us/_components-directions.scss";
