@@ -668,7 +668,7 @@ h5 {
     grid-template-rows: max-content 1fr max-content;
     grid-template-columns: auto;
     justify-content: center;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -849,10 +849,20 @@ h5 {
   transition: transform 0.2s ease-out;
 }
 
+.simple-button:focus {
+  outline: none;
+}
+
 .simple-button:hover {
   transform: scale(1.3);
   background-color: whitesmoke;
   border-radius: 50%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .simple-button:hover {
+    background: none;
+  }
 }
 
 .footer {
@@ -892,7 +902,7 @@ h5 {
   width: 100%;
 }
 
-@media (max-width: 599px) {
+@media (max-width: 1200px) {
   .footer__mask {
     display: none;
   }
@@ -907,6 +917,18 @@ h5 {
   justify-items: end;
   align-items: flex-start;
   padding-top: 64px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__wrapper {
+    justify-content: center;
+    justify-items: left;
+    align-items: start;
+    grid-template-columns: max-content max-content;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -931,6 +953,13 @@ h5 {
   }
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__softuni-kids {
+    grid-template-columns: max-content;
+    grid-template-rows: max-content max-content;
+  }
+}
+
 .footer__policy {
   padding-left: 20px;
   padding-top: 35px;
@@ -942,6 +971,12 @@ h5 {
     margin: 0;
     grid-row: 2 / 3;
     grid-column: 1 / 2;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__policy {
+    padding: 0;
   }
 }
 
@@ -965,6 +1000,12 @@ h5 {
   }
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__all-courses {
+    margin: 0;
+  }
+}
+
 .footer__all-initiatives {
   margin-left: 85px;
 }
@@ -974,6 +1015,12 @@ h5 {
     margin: 0;
     grid-row: 1 / 2;
     grid-column: 2 / 3;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__all-initiatives {
+    margin: 0;
   }
 }
 
@@ -993,6 +1040,12 @@ h5 {
   }
   .footer__find-us .footer__article__title {
     display: none;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__find-us {
+    margin: 0;
   }
 }
 
@@ -1026,6 +1079,12 @@ h5 {
     width: 335px;
     text-align: center;
     padding: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .footer__all-rights-reserved {
+    padding-top: 77px;
   }
 }
 
@@ -1329,7 +1388,11 @@ h5 {
   .signup {
     position: absolute;
     top: 650px;
-    left: 5.5%;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+    width: 600px;
   }
 }
 
@@ -1439,6 +1502,7 @@ h5 {
 @media (min-width: 600px) and (max-width: 1200px) {
   .signup__group {
     justify-content: center;
+    margin: 0 0 8% 0;
   }
 }
 
@@ -1482,7 +1546,9 @@ h5 {
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .main-intro {
-    margin-top: 700px;
+    width: 600px;
+    margin: auto;
+    margin-top: 600px;
   }
 }
 
@@ -1544,6 +1610,8 @@ h5 {
 @media (min-width: 600px) and (max-width: 1200px) {
   .c-for-who {
     text-align: center;
+    width: 600px;
+    margin: 70px auto;
   }
 }
 
@@ -1670,6 +1738,7 @@ h5 {
 @media (min-width: 600px) and (max-width: 1200px) {
   .c-important__text {
     margin-bottom: 20px;
+    width: 600px;
   }
 }
 
@@ -1724,9 +1793,7 @@ h5 {
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .main__c-course-path:before {
-    position: absolute;
-    top: -10px;
-    left: 30%;
+    display: none;
   }
 }
 
@@ -1756,9 +1823,7 @@ h5 {
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .main__c-course-path:after {
-    position: absolute;
-    top: 752px;
-    left: 27%;
+    display: none;
   }
 }
 
@@ -1899,9 +1964,7 @@ h5 {
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .main__c-when-and-where__title:before {
-    position: absolute;
-    top: 3%;
-    left: -10%;
+    display: none;
   }
 }
 
@@ -1912,6 +1975,7 @@ h5 {
 @media (min-width: 600px) and (max-width: 1200px) {
   .main__c-when-and-where__text {
     padding-bottom: 20px;
+    width: 600px;
   }
 }
 
@@ -1955,9 +2019,7 @@ h5 {
 
 @media (min-width: 600px) and (max-width: 1200px) {
   .main__c-extra-info__title:before {
-    position: absolute;
-    top: 3%;
-    left: 18%;
+    display: none;
   }
 }
 
@@ -1968,6 +2030,8 @@ h5 {
 @media (min-width: 600px) and (max-width: 1200px) {
   .main__c-extra-info__text {
     padding-bottom: 20px;
+    width: 600px;
+    margin: auto;
   }
 }
 
@@ -2194,10 +2258,23 @@ h5 {
   color: #ffffff;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-trainers__title {
+    padding-top: 60px;
+  }
+}
+
 .c-trainers__text {
   color: #ffffff;
   padding: 0 5.3% 18% 5.3%;
   text-align: center;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-trainers__text {
+    width: 600px;
+    padding: 0 0 60px 0;
+  }
 }
 
 .c-managers__wrapper {
@@ -2208,7 +2285,7 @@ h5 {
   content: url("../../assets/icons/blue-dots.svg");
   position: absolute;
   top: 103.9%;
-  left: 5.1%;
+  left: 7%;
   z-index: 1;
 }
 
@@ -2221,8 +2298,20 @@ h5 {
   }
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-managers__wrapper:after {
+    display: none;
+  }
+}
+
 .c-managers__image {
   margin-top: 13%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-managers__image {
+    margin-top: 60px;
+  }
 }
 
 .c-managers__name {
@@ -2230,6 +2319,12 @@ h5 {
   font-weight: bold;
   margin-top: 9%;
   margin-bottom: 3%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-managers__name {
+    margin-top: 20px;
+  }
 }
 
 .c-managers__role {
@@ -2240,16 +2335,40 @@ h5 {
   margin-bottom: 7%;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-managers__role {
+    margin-bottom: 30px;
+  }
+}
+
 .c-managers__details {
   padding: 0 5.3%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-managers__details {
+    width: 600px;
+  }
 }
 
 .c-teachers {
   margin-top: 35.5%;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-teachers {
+    margin-top: 100px;
+  }
+}
+
 .c-teachers__teacher {
   margin-bottom: 12%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-teachers__teacher {
+    margin-bottom: 30px;
+  }
 }
 
 .c-teachers__teacher--desktop {
@@ -2259,6 +2378,12 @@ h5 {
 .c-teacher__name {
   margin: 7% 0 3% 0;
   color: #41bead;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-teacher__name {
+    margin: 10px 0 10px 0;
+  }
 }
 
 .c-teacher__role {
@@ -2276,6 +2401,12 @@ h5 {
   margin-top: 24%;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-become-a-part {
+    margin-top: 150px;
+  }
+}
+
 .c-become-a-part:before {
   content: "";
   position: absolute;
@@ -2290,13 +2421,35 @@ h5 {
   margin: 21% 0 7% 0;
 }
 
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-become-a-part__title {
+    margin-top: 100px;
+    width: 600px;
+    text-align: center;
+  }
+}
+
 .c-become-a-part__text {
   margin-bottom: 14%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-become-a-part__text {
+    width: 600px;
+    margin-bottom: 50px;
+  }
 }
 
 .c-become-a-part__input-fields-wrapper {
   display: block;
   width: 100%;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-become-a-part__input-fields-wrapper {
+    width: 600px;
+    text-align: center;
+  }
 }
 
 .c-become-a-part__input {
@@ -2311,6 +2464,14 @@ h5 {
 
 .c-become-a-part__input::placeholder {
   color: #ffffff;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .c-become-a-part__input {
+    width: 600px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
 }
 
 .c-become-a-part__button {

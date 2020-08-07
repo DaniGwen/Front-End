@@ -12,8 +12,10 @@
         }
     }
 
-    @include between-600-and-1200{
+    @include between-600-and-1200 {
         text-align: center;
+        width: $tabletWidth;
+        margin: 70px auto;
     }
 
     &__title {
@@ -22,7 +24,7 @@
         margin-right: 10%;
         font-weight: 600;
 
-        @include between-600-and-1200{
+        @include between-600-and-1200 {
             margin: 0 0 10px 0;
         }
 
@@ -34,7 +36,7 @@
             @include for-desktop-up {
                 @include position(absolute, 10%, -13%);
             }
-            @include between-600-and-1200{
+            @include between-600-and-1200 {
                 @include position(absolute, 10%, 0);
             }
         }

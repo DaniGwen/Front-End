@@ -31,7 +31,7 @@
             }
         }
         @include between-600-and-1200 {
-            @include position(absolute, -10px, 30%);
+            display: none;
         }
     }
 
@@ -50,7 +50,7 @@
         }
 
         @include between-600-and-1200 {
-            @include position(absolute, 752px, 27%);
+            display: none;
         }
     }
 

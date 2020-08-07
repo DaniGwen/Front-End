@@ -8,6 +8,10 @@
     padding: 0 $phone-side-padding;
     margin-top: 24%;
 
+    @include between-600-and-1200 {
+        margin-top: 150px;
+    }
+
     // Blue stripe
     &:before {
         content: "";
@@ -19,15 +23,31 @@
 
     &__title {
         margin: 21% 0 7% 0;
+
+        @include between-600-and-1200 {
+            margin-top: 100px;
+            width: $tabletWidth;
+            text-align: center;
+        }
     }
 
     &__text {
         margin-bottom: 14%;
+
+        @include between-600-and-1200 {
+            width: $tabletWidth;
+            margin-bottom: 50px;
+        }
     }
 
     &__input-fields-wrapper {
         display: block;
         width: 100%;
+
+        @include between-600-and-1200 {
+           width: $tabletWidth;
+           text-align: center;
+        }
     }
 
     &__input {
@@ -41,6 +61,12 @@
 
         &::placeholder {
             color: $White;
+        }
+
+        @include between-600-and-1200 {
+            width: $tabletWidth;
+            padding: 20px;
+            margin-bottom: 30px;
         }
     }
 

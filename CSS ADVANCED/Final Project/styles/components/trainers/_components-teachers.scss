@@ -3,8 +3,16 @@
 .c-teachers {
     margin-top: 35.5%;
 
+    @include between-600-and-1200 {
+        margin-top: 100px;
+    }
+
     &__teacher {
         margin-bottom: 12%;
+
+        @include between-600-and-1200 {
+            margin-bottom: 30px;
+        }
     }
 
     &__teacher--desktop {
@@ -16,6 +24,10 @@
     &__name {
         margin: 7% 0 3% 0;
         color: $Primary300;
+
+        @include between-600-and-1200 {
+            margin: 10px 0 10px 0;
+        }
     }
 
     &__role {

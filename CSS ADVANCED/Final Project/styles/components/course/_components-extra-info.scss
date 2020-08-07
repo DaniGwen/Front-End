@@ -24,7 +24,7 @@
             }
 
             @include between-600-and-1200 {
-                @include position(absolute, 3%, 18%);
+                display: none;
             }
         }
     }
@@ -33,7 +33,9 @@
         padding: 0 5% 6% 5%;
 
         @include between-600-and-1200 {
-           padding-bottom: 20px;
+            padding-bottom: 20px;
+            width: 600px;
+            margin: auto;
         }
 
         & a {

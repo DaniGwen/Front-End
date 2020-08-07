@@ -37,7 +37,7 @@
             }
 
             @include between-600-and-1200 {
-                @include position(absolute, 3%, -10%);
+                display: none;
             }
         }
     }
@@ -47,6 +47,7 @@
 
         @include between-600-and-1200 {
             padding-bottom: 20px;
+            width: $tabletWidth;
         }
 
         & span {

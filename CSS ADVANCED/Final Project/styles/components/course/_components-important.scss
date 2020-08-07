@@ -52,6 +52,7 @@
 
         @include between-600-and-1200{
             margin-bottom: 20px;
+            width: $tabletWidth;
         }
 
         & span {

@@ -5,7 +5,9 @@
     margin-top: 142%;
 
     @include between-600-and-1200 {
-        margin-top: 700px;
+        width: $tabletWidth;
+        margin: auto;
+        margin-top: 600px;
     }
 
     &__text {
@@ -30,7 +32,7 @@
                 @include position(absolute, 33%, 42%);
             }
 
-            @include between-600-and-1200{
+            @include between-600-and-1200 {
                 @include position(absolute, 65px, 46%);
             }
         }

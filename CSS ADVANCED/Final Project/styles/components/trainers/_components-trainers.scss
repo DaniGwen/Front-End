@@ -7,11 +7,20 @@
         margin: 0 0 7% 0;
         padding-top: 16%;
         color: $White;
+
+        @include between-600-and-1200 {
+            padding-top: 60px;
+        }
     }
 
     &__text {
         color: $White;
         padding: 0 $phone-side-padding 18% $phone-side-padding;
         text-align: center;
+
+        @include between-600-and-1200 {
+            width: $tabletWidth;
+            padding: 0 0 60px 0;
+        }
     }
 }

@@ -7,18 +7,26 @@
 
         &:after {
             content: url("../../assets/icons/blue-dots.svg");
-            @include position(absolute, 103.9%, 5.1%);
+            @include position(absolute, 103.9%, 7%);
             z-index: 1;
 
             @include for-desktop-up {
                 content: url("../../assets/icons/blue-dots-long.svg");
                 @include position(absolute, 128%, 5px);
             }
+
+            @include between-600-and-1200 {
+                display: none;
+            }
         }
     }
 
     &__image {
         margin-top: 13%;
+
+        @include between-600-and-1200 {
+            margin-top: 60px;
+        }
     }
 
     &__name {
@@ -26,6 +34,10 @@
         font-weight: bold;
         margin-top: 9%;
         margin-bottom: 3%;
+
+        @include between-600-and-1200 {
+            margin-top: 20px;
+        }
     }
 
     &__role {
@@ -34,9 +46,17 @@
         font-size: 14px;
         line-height: 16px;
         margin-bottom: 7%;
+
+        @include between-600-and-1200 {
+            margin-bottom: 30px;
+        }
     }
 
     &__details {
         padding: 0 $phone-side-padding;
+
+        @include between-600-and-1200 {
+            width: $tabletWidth;
+        }
     }
 }
