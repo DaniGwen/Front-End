@@ -55,8 +55,11 @@
 // Used in card-like elements
 .shadow-transition {
     transition: box-shadow 0.5s ease-out;
-    &:hover {
-        box-shadow: $Custom;
+
+    @include for-tablet-portrait-up {
+        &:hover {
+            box-shadow: $Custom;
+        }
     }
 }
 

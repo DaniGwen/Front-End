@@ -79,6 +79,12 @@
 
     &__text {
         padding: 0 5%;
+
+        @include between-600-and-1200 {
+            width: $tabletWidth;
+            padding: 0;
+            margin: auto;
+        }
     }
 
     &__title-exercises {
